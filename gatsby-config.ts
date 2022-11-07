@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
     },
     plugins: [
         `gatsby-transformer-sharp`,
-        `gatsby-plugingit -sitemap`,
+        `gatsby-pluging -sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
         `gatsby-plugin-react-helmet`,
