@@ -37,22 +37,23 @@ export const Heading = styled.p`
     letter-spacing: 2.25px;
     color: #000000;
     text-align: left;
-    width: 80%;
+    width: 100%;
     margin: 20px auto;
     ${mq['md']} {
         font-size: 24px;
     }
 `;
 export const Sub_Heading = styled.p`
-    font-weight: 700;
-    font-size: 42px;
+    font-weight: 100;
+    font-size: 34px;
     line-height: 47px;
     letter-spacing: 2.25px;
     color: #000000;
+    text-align: center;
 `;
 export const Sub_HeadingColor = styled.span`
     font-weight: 900;
-    font-size: 50px;
+    font-size: 58px;
     line-height: 59px;
     letter-spacing: 2.25px;
     color: #1f4668;

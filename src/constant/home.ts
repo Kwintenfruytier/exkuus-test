@@ -1,7 +1,7 @@
 export const quotes = [
     {
-        name: 'Je krijgt letterlijk alle tools, scripts, bonussen en dan kom je ook nog eens terecht in een hechte familie die je motiveert, inspireert, elke dag opnieuw!',
-        name2: '- Sankara D',
+        name: 'Het Is Gewoon Een No Brainer',
+        name2: '- Nick P.',
         bg: '#FFDF2B',
         color: '#4c3041',
     },

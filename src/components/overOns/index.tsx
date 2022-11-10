@@ -21,26 +21,36 @@ import Button from '../common/commonButton';
 import { Link } from 'gatsby';
 import { ReactComponent as Over_One } from 'Images/svg/overone.svg';
 
-const OverOne = () => {
+const overOns = () => {
     return (
         <OverOnsWrapper>
-            <Header width="100%">
-                waar staan we
-                <br /> voor?
+            <Header data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                Waar staan we voor?
             </Header>
             <Main>
                 <MainComp position="absolute" top="100px" m_top="200px" align="end">
                     <Over_One />
                 </MainComp>
                 <MainComp>
-                    <P width_mb="100%">
+                    <P
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
                         <TextBlue fontWeight="700">MISSIE</TextBlue>
                     </P>
-                    <P size="18px" width_mb="100%">
+                    <P
+                        size="18px"
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
                         Om eender welke Vlaming met eender welke achtergrond te begeleiden,
                         ondersteunen en coachen naar een betere gedachtengang (mindset) om
-                        uiteindelik de touwfjes zelf in handen te nemen (te leiden in plats van
-                        geleid te worden) en een eigen bedriff op te zetten (om het leven te leiden
+                        uiteindelijk de touwtjes zelf in handen te nemen (te leiden in plaats van
+                        geleid te worden) en een eigen bedrijf op te zetten (om het leven te leiden
                         waarvan zij ECHT gelukkig worden). <br />{' '}
                         <TextBlue mobileFontSize="20px" fontSize="22px">
                             Beginnend met 1 miljoen.
@@ -48,20 +58,42 @@ const OverOne = () => {
                     </P>
                 </MainComp>
                 <MainComp>
-                    <P width_mb="100%">
+                    <P
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
                         <TextBlue fontWeight="700">VISIE</TextBlue>
                     </P>
-                    <P size="18px" width_mb="100%">
-                        Het denkpatroon en de conditioneringen van de mens veranderen zodat ze
-                        kunnen losbreken van het traditioneel system en de beste en gelukkigste
+                    <P
+                        size="18px"
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        Het denkpatroon en de conditioneringen van de mens veranderen, zodat ze
+                        kunnen losbreken van het traditioneel systeem en de beste en gelukkigste
                         versie van zichzelf worden.
                     </P>
                 </MainComp>
                 <MainComp>
-                    <P width_mb="100%">
-                        <TextBlue fontWeight="700">ONZE WAARDEN</TextBlue>
+                    <P
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        <TextBlue fontWeight="700">ONZE KERNWAARDEN</TextBlue>
                     </P>
-                    <P size="18px" width_mb="100%">
+                    <P
+                        size="18px"
+                        width_mb="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
                         <ul>
                             <li>
                                 Focus op <strong>klantresultaten</strong> en de rest volgt vanzelf{' '}
@@ -79,75 +111,143 @@ const OverOne = () => {
                     </P>
                 </MainComp>
             </Main>
-            <Header width="100%" mb="50px">
-                ons verhaal tot nu...
+            <Header mb="50px" data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                Ons verhaal tot nu...
             </Header>
 
             <VerticalTags>
-                <Tag bg="#FFDF2B">
+                <Tag
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
                         tabletSize="12px"
                         mobileSize="12px"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Kjell digitaal marketeer
+                        Kjell waagt de sprong als zelfstandig digitaal marketeer, met succes!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#FFDF2B">
-                    <Rotate top="50%">2018</Rotate>
+                <Line
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate
+                        top="50%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        juni 2018
+                    </Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         tabletSize="12px"
                         mobileSize="12px"
                         textAlign="center"
                         color="white"
                         textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Opleidingstraject marketing
+                        Kjell ontwikkelt na bewezen resultaten een eigen online opleidingstraject
+                        dat zich focust op ondernemerschap en digitale marketing.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">maart 2020</Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags>
-                <Tag bg="#FFDF2B">
+                <Tag
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
                         tabletSize="12px"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Oprichting EXKUUS samen met Nomi
+                        Het traject blijkt een waar succes te zijn, Nomi springt mee aan boord en
+                        samen met Kjell wordt er een nieuwe vennootschap "EXKUUS" geboren!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#FFDF2B">
+                <Line
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate>augustus 2020</Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         tabletSize="12px"
                         mobileSize="12px"
@@ -155,42 +255,80 @@ const OverOne = () => {
                         color="white"
                         width_mb="100%"
                         textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Elysium Coaching
+                        EXKUUS organiseert haar allereerste fysieke "Meet Up" voor een handvol
+                        cursisten in Wetteren!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
-                    <Rotate color="white">december 2020</Rotate>
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">september 2020</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
             <VerticalTags>
-                <Tag bg="#FFDF2B">
+                <Tag
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
                         tabletSize="12px"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Tesla
+                        Een eerste grote revisie van het programma vind plaats, "Elysium Coaching"
+                        vormt de next step.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#FFDF2B">
-                    <Rotate>februari 2021</Rotate>
+                <Line
+                    bg="#FFDF2B"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate>december 2020</Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         tabletSize="12px"
                         mobileSize="12px"
@@ -198,21 +336,39 @@ const OverOne = () => {
                         color="white"
                         width_mb="100%"
                         textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Succescoach Ilias
+                        EXKUUS groeit en werft haar eerste functie aan, welkom "Succescoach" Ilias!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">juni 2021</Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags>
-                <Tag bg="#1270B0">
+                <Tag
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
@@ -220,21 +376,40 @@ const OverOne = () => {
                         textAlign_mob="center"
                         tabletSize="12px"
                         color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Two Comma Club Award
+                        Samen met een 30-tal cursisten zakken we af naar Carré om het EK-voetbal te
+                        beleven.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1270B0">
-                    <Rotate color="white">september 2021</Rotate>
+                <Line
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">augustus 2021</Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         tabletSize="12px"
                         mobileSize="12px"
@@ -242,21 +417,40 @@ const OverOne = () => {
                         color="white"
                         width_mb="120px"
                         textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Tattoo EXKUUS vereeuwigd op ons lichaam
+                        Een eerste grote mijlpaal wordt bereikt, EXKUUS claimt de "Two Comma Club"
+                        Award!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
-                    <Rotate color="white">oktober 2021 </Rotate>
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">september 2021 </Rotate>
                 </Line>
             </VerticalTags>
-            <Connector2 />
+            <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags>
-                <Tag bg="#1270B0">
+                <Tag
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
@@ -264,87 +458,166 @@ const OverOne = () => {
                         textAlign_mob="center"
                         tabletSize="12px"
                         color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Marathon voor het goede doel
+                        Belofte maakt schuld! EXKUUS wordt vereeuwigd op ons lichaam dankzij een
+                        gemeenschappelijke tattoo.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1270B0">
+                <Line
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">oktober 2021</Rotate>
+                </Line>
+            </VerticalTags>
+            <Connector2 />
+
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <P
+                        tabletSize="12px"
+                        mobileSize="12px"
+                        textAlign="center"
+                        color="white"
+                        width_mb="100%"
+                        textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        Kjell engageert zich tot het lopen van een marathon met een inzamelactie
+                        voor het goede doel - De instantie "Raakzaam" wordt beloond met €8810,- en
+                        enkele gloednieuwe sport accomodaties!
+                    </P>
+                </Tag>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
+                </Connector>
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">november 2021</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+            <VerticalTags>
+                <Tag
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
-                        tabletSize="12px"
                         mobileSize="12px"
                         textAlign="center"
-                        color="white"
                         width_mb="100%"
                         textAlign_mob="center"
+                        tabletSize="12px"
+                        color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        LIVE evenement Elysium Coaching
+                        EXKUUS organiseert haar allereerste "evenement" voor 100 van haar cursisten,
+                        een dag vol ambiance en wijsheid in het Van der Valk hotel te Beveren.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
+                <Line
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">januari 2022</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags>
-                <Tag bg="#1270B0">
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
+                        tabletSize="12px"
                         mobileSize="12px"
                         textAlign="center"
+                        color="white"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
-                        color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        YouTube kanaal
+                        Kjell lanceert zijn eigen 'YouTube' kanaal waarin hij gratis en voor niets
+                        meermaals per week waarde en motivatie deelt met elke enthousiasteling die
+                        hem volgt. Met als uiteindelijke missie "het impacten van 1 miljoen mensen
+                        hun leven"!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1270B0">
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">februari 2022</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
-            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
-                    <P
-                        tabletSize="12px"
-                        mobileSize="12px"
-                        textAlign="center"
-                        color="white"
-                        width_mb="100%"
-                        textAlign_mob="center"
-                    >
-                        TikTok kanaal
-                    </P>
-                </Tag>
-                <Connector>
-                    <Clip></Clip>
-                </Connector>
-                <Line bg="#1F4668" margin="-2px">
-                    <Rotate color="white">maart 2022</Rotate>
-                </Line>
-            </VerticalTags>
-            <Connector2 />
-
             <VerticalTags>
-                <Tag bg="#1270B0">
+                <Tag
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
@@ -352,43 +625,84 @@ const OverOne = () => {
                         textAlign_mob="center"
                         tabletSize="12px"
                         color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Mastermind
+                        Kjell lanceert zijn eigen 'TikTok' kanaal waarin hij gratis en voor niets 7
+                        op 7 waarde en motivatie deelt met elke enthousiasteling die hem volgt. Met
+                        als uiteindelijke missie "het impacten van 1 miljoen mensen hun leven"!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1270B0">
-                    <Rotate color="white">juni 2022 </Rotate>
+                <Line
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">maart 2022 </Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
-                <Tag bg="#1F4668" color="white">
+                <Tag
+                    bg="#1F4668"
+                    color="white"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
+                        size="15px"
                         tabletSize="12px"
                         mobileSize="12px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
                         textAlign_mob="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        Anderzom
+                        EXKUUS creëert naast haar opleidingstraject een exclusiever concept - "Next
+                        Level Mastermind" - Waarin het opschalen van jezelf als ondernemer en jouw
+                        zaak centraal staan.
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#1F4668" margin="-2px">
-                    <Rotate color="white">augustus 2022</Rotate>
+                <Line
+                    bg="#1F4668"
+                    margin="-2px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">juni 2022</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
             <VerticalTags>
-                <Tag bg="#16a1fa">
+                <Tag
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <P
                         mobileSize="12px"
                         textAlign="center"
@@ -396,14 +710,69 @@ const OverOne = () => {
                         textAlign_mob="center"
                         tabletSize="12px"
                         color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
-                        KMO-Portefeuille
+                        Een tweede grote revisie van het programma vind plaats, "Anderzom" is klaar
+                        om te domineren binnen een intensieve coaching industrie!
                     </P>
                 </Tag>
-                <Connector>
-                    <Clip></Clip>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
                 </Connector>
-                <Line bg="#16a1fa">
+                <Line
+                    bg="#1270B0"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <Rotate color="white">augustus 2022 </Rotate>
+                </Line>
+            </VerticalTags>
+            <Connector2 />
+
+            <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
+                <Tag
+                    bg="#16a1fa"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    <P
+                        mobileSize="12px"
+                        textAlign="center"
+                        width_mb="100%"
+                        textAlign_mob="center"
+                        tabletSize="12px"
+                        color="white"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        EXKUUS bereikt een volgende grote mijlpaal en sluit zich aan bij de
+                        KMO-Portefeuille - Vanaf nu zijn ook wij officiële dienstverlener voor de
+                        Vlaamse Overheid en kunnen (toekomstig) ondernemers tot 30% subsidies
+                        genieten op al onze programma's.
+                    </P>
+                </Tag>
+                <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Clip
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    ></Clip>
+                </Connector>
+                <Line
+                    bg="#16a1fa"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <Rotate color="white">oktober 2022 </Rotate>
                 </Line>
             </VerticalTags>
@@ -416,11 +785,14 @@ const OverOne = () => {
                     <Member_Img>
                         <Image
                             filename="kjell.jpeg"
-                            alt="logo"
+                            alt="Foto Kjell"
                             width="100%"
                             height="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         />
                     </Member_Img>
                     <MemberIntro bg="#1F4668">
@@ -430,6 +802,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             KJELL
                         </P>
@@ -439,6 +814,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             De drijvende kracht achter EXKUUS. Als “Content Creator” en “Face of”
                             representeer ik mijn bedrijf met hart en ziel, dit is mijn kind.
@@ -452,11 +830,14 @@ const OverOne = () => {
                     <Member_Img>
                         <Image
                             filename="nomi-2.jpg"
-                            alt="logo"
+                            alt="Foto Nomi"
                             width="100%"
                             height="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         />
                     </Member_Img>
                     <MemberIntro bg="#1270B0">
@@ -466,6 +847,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             NOMI
                         </P>
@@ -475,6 +859,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             De ‘yang’ naast de ‘yin’, het tweede zadel van de tandem, maar vooral de
                             rust zich zelve achter de schermen bij EXKUUS. Als “Head of Operations”
@@ -489,11 +876,14 @@ const OverOne = () => {
                     <Member_Img>
                         <Image
                             filename="ilias-2.jpg"
-                            alt="logo"
+                            alt="Foto Ilias"
                             width="100%"
                             height="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         />
                     </Member_Img>
                     <MemberIntro bg="#FFDF2B">
@@ -503,6 +893,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             ILIAS
                         </P>
@@ -512,6 +905,9 @@ const OverOne = () => {
                             width_mb="100%"
                             textAlign="center"
                             textAlign_mob="center"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             De rechterhand van Kjell die instaat voor alles dat te maken heeft met
                             het ondersteunen, motiveren, inspireren en accountable houden van
@@ -521,7 +917,7 @@ const OverOne = () => {
                     </MemberIntro>
                 </Members>
             </Teams>
-            <Link to="/booking">
+            <Link to="/afspraak">
                 <Button
                     text="Ik maak een afspraak"
                     background-color="#FFDF2B"
@@ -531,10 +927,13 @@ const OverOne = () => {
                     text-transform="uppercase"
                     margin-top="100px"
                     margin-bottom="100px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
                 />
             </Link>
         </OverOnsWrapper>
     );
 };
 
-export default OverOne;
+export default overOns;

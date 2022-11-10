@@ -23,7 +23,7 @@ const config: GatsbyConfig = {
             options: {
                 defaults: {
                     placeholder: `blurred`,
-                    quality: 90,
+                    quality: 50,
                 },
             },
         },

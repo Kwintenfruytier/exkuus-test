@@ -80,12 +80,12 @@ const Contact = () => {
                     closeModal={closeModal}
                 />
                 <Container>
-                    <Header text-align="left">hoe kan je ons contacteren?</Header>
+                    <Header text-align="left">Hoe kan je ons contacteren?</Header>
                     <br />
                     <BannerImg />
                     <br />
                     <br />
-                    <Header text-align="left">volg ons op een van onderstaande socials</Header>
+                    <Header text-align="left">Volg ons op een van onderstaande socials</Header>
                     <SocialIcon>
                         <a
                             target="_blank"
@@ -130,8 +130,8 @@ const Contact = () => {
                     </SocialIcon>
                     <br />
                     <Header text-align="left">
-                        heb je een vraag? Je kan ons altijd een mailtje sturen!
-                        <Content>(en ja, wij antwoorden die hoor ;)</Content>
+                        Heb je een vraag? Je kan ons altijd een mailtje sturen!
+                        <Content>(en ja, wij betanwoorden ze persoonlijk EN op maat ;))</Content>
                     </Header>
                 </Container>
 
@@ -182,7 +182,7 @@ const Contact = () => {
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>
-                        <TopAdornment>Jouw bericht*</TopAdornment>
+                        <TopAdornment>Boodschap*</TopAdornment>
                         <TextFieldComponent
                             text="Typ jouw bericht"
                             background-color="none"

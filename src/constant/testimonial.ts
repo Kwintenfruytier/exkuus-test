@@ -5,6 +5,7 @@ export const quotes = [
         bg: '#FFDF2B',
         color: '#000000',
     },
+
     {
         name: 'Mijn verwachtingen zijn meer dan ingelost! Je bereikt gegarandeerd resultaat!',
         name2: '- Martin L',
@@ -53,6 +54,37 @@ export const quotes = [
         bg: '#1F4668',
         color: '#FFFFFF',
     },
+    {
+        name: 'Het Is Lang Geleden Dat Ik Iemand Ben Tegengekomen In België Die Zo Oprecht Is',
+        name2: '- Tom S.',
+        bg: '#87D7FF',
+        color: '#000000',
+    },
+
+    {
+        name: 'Ik Sta Veel Rustiger In Het Leven, Ik Voel Me Vrij',
+        name2: '- Dave R.',
+        bg: '#87D7FF',
+        color: '#000000',
+    },
+    {
+        name: 'Het Is Zo Belangrijk Dat Je Iets Doet Waar Je Je Goed Bij Voelt. Ik Heb Dat Vandaag Gevonden.',
+        name2: '- Jelle D.V.',
+        bg: '#1F4668',
+        color: '#FFFFFF',
+    },
+    {
+        name: 'Blijven Opdagen Is De Boodschap...',
+        name2: '- Linz D.S.',
+        bg: '#FFDF2B',
+        color: '#000000',
+    },
+    {
+        name: 'Ik Volg Kjell Al Een Aantal Maanden Op Sociale Media En Ik Zag Dagelijks Zijn Consistentie, Daarom Wist Ik Dat Dit Geen Ééndagsvlieg Was',
+        name2: '- Celine M.',
+        bg: '#1F4668',
+        color: '#FFFFFF',
+    },
 ];
 export const videos = [
     {
@@ -98,8 +130,16 @@ export const videos = [
 ];
 
 export const screenshots = [
-    { name: 'sc1.png', bg: '#FFDF2B', color: '#000000' },
-    { name: 'sc2.png', bg: '#1F4668', color: '#000000' },
-    { name: 'sc3.png', bg: '#87D7FF', color: '#000000' },
-    { name: 'sc4.png', bg: '#275689', color: '#000000' },
+    { name: 'testimonial1.jpg', bg: '#FFDF2B', color: '#000000' },
+    { name: 'testimonial13.jpg', bg: '#1F4668', color: '#000000' },
+    { name: 'testimonial3.jpg', bg: '#87D7FF', color: '#000000' },
+    { name: 'testimonial4.jpg', bg: '#275689', color: '#000000' },
+    { name: 'testimonial5.jpg', bg: '#FFDF2B', color: '#000000' },
+    { name: 'testimonial6.jpg', bg: '#1F4668', color: '#000000' },
+    { name: 'testimonial7.jpg', bg: '#87D7FF', color: '#000000' },
+    { name: 'testimonial8.jpg', bg: '#275689', color: '#000000' },
+    { name: 'testimonial9.jpg', bg: '#FFDF2B', color: '#000000' },
+    { name: 'testimonial10.jpg', bg: '#1F4668', color: '#000000' },
+    { name: 'testimonial1.jpg', bg: '#87D7FF', color: '#000000' },
+    { name: 'testimonial12.jpg', bg: '#275689', color: '#000000' },
 ];

@@ -340,7 +340,7 @@ export const Diensten_paragraph = styled.div<{ mobile_width?: string }>`
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: ${(p: margintop) => (p.margintop ? p.margintop : '70px')};
+    margin-top: ${(p: margintop) => (p.margintop ? p.margintop : '90px')};
     text-align: ${(p: text_align) => (p.text_align ? p.text_align : 'center')};
     font-size: ${(p: fontsize) => (p.fontsize ? p.fontsize : '26px')};
 
@@ -448,7 +448,7 @@ export const Banner_img_wrapper = styled.div`
     }
 `;
 export const Diensten_Hero_title = styled.div`
-    font-size: 34px;
+    font-size: 50px;
     font-family: Cairo;
     line-height: 40.5px;
     font-weight: 700;
@@ -456,6 +456,7 @@ export const Diensten_Hero_title = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 10rem;
     ${mq['sm']} {
         width: 233px;
         text-align: center;

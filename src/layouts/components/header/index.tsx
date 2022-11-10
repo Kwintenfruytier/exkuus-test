@@ -59,14 +59,14 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                         <Link to="/">
                             <Image
                                 filename="logo.png"
-                                alt="logo"
+                                alt="Exkuus Logo"
                                 width="191px"
                                 mobile_width="129px"
                             />
                         </Link>
                     </Logo>
                     <Wrapper>
-                        <Link to="/booking" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                             <Calender>
                                 <MR_image>
                                     <Image filename="calender.png" alt="icon" width="15px" />
@@ -84,7 +84,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                     <LogoWrapper>
                                         <Image
                                             filename="logo.png"
-                                            alt="Logo"
+                                            alt="logo exkuus"
                                             width="191px"
                                             mobile_width="129px"
                                         />
@@ -92,7 +92,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                     <CloseIconWrapper onClick={() => setOpenModal(!openModal)}>
                                         <Image
                                             filename="close.png"
-                                            alt="close"
+                                            alt="close modal"
                                             width="21px"
                                             mobile_width="21px"
                                         />
@@ -104,7 +104,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                             </MR_image>
                                             <Link
                                                 style={{ textDecoration: 'none', color: 'black' }}
-                                                to="/booking"
+                                                to="/afspraak"
                                                 onClick={() => setOpenModal(!openModal)}
                                             >
                                                 VERANDER NU JOUW LEVEN
@@ -136,7 +136,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                             </MenuItem>
                                         </StyledLink>
                                         <StyledLink
-                                            to="/booking"
+                                            to="/afspraak"
                                             onClick={() => setOpenModal(!openModal)}
                                         >
                                             <MenuItem>
@@ -150,7 +150,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                     ) : null}
                                                 </MR_image>
                                                 <Header_Link
-                                                    active={location.pathname === '/booking/'}
+                                                    active={location.pathname === '/afspraak/'}
                                                 >
                                                     MAAK EEN AFSPRAAK
                                                 </Header_Link>

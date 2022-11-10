@@ -6,7 +6,7 @@ import {
     VideoWrapper,
     FlexCol,
 } from './testimonials';
-import { Header } from 'styles/typography';
+import { Header, TextBlue } from 'styles/typography';
 import Button from '@/common/commonButton';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -20,7 +20,9 @@ import { Link } from 'gatsby';
 const Testimonials = () => {
     return (
         <TestimonialWrapper>
-            <Header text-align="left">zij hebben alvast de sleutel tot de kluis gevonden...</Header>
+            <Header text-align="left" maxWidth="70%">
+                Zij hebben alvast financiële vrijheid en persoonlijk succes gevonden:
+            </Header>
 
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={3}>
                 {quotes.map((quote, index) => (
@@ -64,7 +66,7 @@ const Testimonials = () => {
                     ))}
                 </QuoteWrapper>
             </ScrollWrapper>
-            <Header text-align="left">... ze vertellen je graag iets meer</Header>
+            <Header text-align="left">... Ze vertellen je graag iets meer</Header>
             <br />
             <br />
             <VideoWrapper>
@@ -77,15 +79,20 @@ const Testimonials = () => {
                         style={{ marginRight: 10, marginBottom: 10 }}
                         frameBorder="0"
                         allow="autoplay; fullscreen"
+                        alt="testimonial video"
                     ></iframe>
                 ))}
             </VideoWrapper>
-            <Header text-align="left">er zijn er nog!c</Header>
+            <Header text-align="left">Er zijn er nog!</Header>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={3}>
                 {screenshots.map((screenshot, index) => (
                     <SwiperSlide key={index}>
                         <Quote height="300px" bg={screenshot.bg} color={screenshot.color}>
-                            <Image filename={screenshot.name} alt="logo" width="100%" />
+                            <Image
+                                filename={screenshot.name}
+                                alt="screenshot testimonial"
+                                width="100%"
+                            />
                         </Quote>
                     </SwiperSlide>
                 ))}
@@ -99,18 +106,22 @@ const Testimonials = () => {
                             bg={screenshot.bg}
                             color={screenshot.color}
                         >
-                            <Image filename={screenshot.name} alt="logo" width="100%" />
+                            <Image
+                                filename={screenshot.name}
+                                alt="screenshot testimonial"
+                                width="100%"
+                            />
                         </Quote>
                     ))}
                 </QuoteWrapper>
             </ScrollWrapper>
 
-            <Header maxWidth="474px" text-align="left">
-                waar wacht jij nog op? Klaar om de sleutel te vinden?
+            <Header maxWidth="476px" text-align="left">
+                Waar wacht jij nog op? Ben je ook klaar om{' '}
+                <TextBlue fontSize="1.1em">échte financiële vrijheid</TextBlue> te ervaren?
             </Header>
-            <br />
-            <br />
-            <Link to="/booking">
+
+            <Link to="/afspraak">
                 <Button
                     text="IK BEN KLAAR OM MIJN LEVEN TE VERANDEREN"
                     background-color="#FFDF2B"
@@ -118,13 +129,9 @@ const Testimonials = () => {
                     border="1px solid #000000"
                     font-size="17px"
                     text-align="center"
-                    margin-top="18px"
+                    margin-top="3rem"
                 />
             </Link>
-            <br />
-            <br />
-            <br />
-            <br />
         </TestimonialWrapper>
     );
 };

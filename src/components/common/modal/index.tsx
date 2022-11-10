@@ -47,7 +47,7 @@ const Dialog = ({ open, closeModal, title }: any) => {
                 >
                     {title}
                 </Paragraph>
-                <Link to="/booking">
+                <Link to="/afspraak">
                     <Button
                         text="plan nu jouw afspraak"
                         background-color="#FFDF2B"

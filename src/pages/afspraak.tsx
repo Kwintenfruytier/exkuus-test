@@ -19,17 +19,17 @@ const Booking = () => {
             >
                 <Image
                     filename="booking.png"
-                    alt="logo"
+                    alt="afspraak hero afbeelding. 2 mensen highfiven"
                     width="450px"
                     height="100%"
                     mobile_width="280px"
                 />
                 <Header style={{ paddingBottom: 50, textAlign: 'center' }}>
-                    wees trots op jezelf!
-                    <br /> je hebt de eerste stap <br />
-                    gezet naar{' '}
-                    <TextBlue fontWeight="700" mobileFontSize="28px" fontSize="45px">
-                        succes!
+                    Wees trots op jezelf! <br />
+                    je hebt de eerste stap gezet naar
+                    <br />
+                    <TextBlue fontweight="700" mobileFontSize="28px" fontSize="45px">
+                        succes/een vrijer leven!
                     </TextBlue>
                 </Header>
             </div>

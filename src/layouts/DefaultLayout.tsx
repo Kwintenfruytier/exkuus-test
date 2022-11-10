@@ -14,7 +14,8 @@ export const DefaultLayout: React.FC<{ children: React.ReactNode }> = ({ childre
                 styles={{
                     banner: { position: 'absolute', bottom: 0, height: 'auto' },
                 }}
-                message="Yes, we use cookies. If you don't like it change website, we won't miss you!"
+                message="Onze site maakt gebruik van koekjes! Lekker toch? Wil je meer weten over wat jouw rechten zijn en hoe wij met die koekjes omgaan? Lees dat hier ins ons"
+                link={<a href="/gdpr">gdpr-beleid</a>}
                 onAccept={() => {}}
                 cookie="user-has-accepted-cookies"
             />

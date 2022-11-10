@@ -7,15 +7,15 @@ import { Link } from 'gatsby';
 const NotFoundPage = () => {
     return (
         <NotFoundWrapper>
-            <Image filename="error.png" alt="404" width="186px" />
+            <Image filename="error.png" alt="404 error" width="186px" />
 
             <Header>
-                oh nee! deze pagina blijkt niet te bestaan <span>:(</span>
+                Oh nee! Deze pagina blijkt niet te bestaan <span>:(</span>
             </Header>
             <NotfoundImage>
                 <Image
                     filename="404.png"
-                    alt="logo"
+                    alt="404 afbeelding"
                     width="500px"
                     height="100%"
                     mobile_width="300px"
@@ -23,10 +23,10 @@ const NotFoundPage = () => {
             </NotfoundImage>
 
             <Header weight="700">
-                maak je geen zorgen! hier zijn enkele links die je kunnen helpen:
+                Maak je geen zorgen! hier zijn enkele links die je kunnen helpen:
             </Header>
             <BtnWrapper>
-                <Link to="/booking">
+                <Link to="/afspraak">
                     <Button
                         text="Maak afspraak"
                         background-color="#FFDF2B"

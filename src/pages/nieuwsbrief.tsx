@@ -1,9 +1,9 @@
 import { DefaultLayout } from 'layouts/DefaultLayout';
-import NewsLetter from 'components/newsletter';
+import Nieuwsbrief from 'components/nieuwsbrief';
 
 const NewsPage: Page = () => (
     <main>
-        <NewsLetter />
+        <Nieuwsbrief />
     </main>
 );
 

@@ -160,7 +160,7 @@ export const Rotate = styled.p<{
     white-space: nowrap;
     transform: rotate(270deg);
     transform-origin: 0 0;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 16px;
     color: ${props => props.color || 'black'};
     ${mq['lg']} {

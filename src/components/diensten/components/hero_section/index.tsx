@@ -19,13 +19,13 @@ const Hero = () => {
     return (
         <>
             <br />
-            <Mobile_Heading>leer meer over onze diensten</Mobile_Heading>
+            <Mobile_Heading>Leer meer over onze diensten</Mobile_Heading>
             <Hero_>
                 <Hide>
                     <Left_Section>
-                        <Heading>leer meer over onze diensten</Heading>
+                        <Heading width="100%">Leer meer over onze diensten</Heading>
                         <Sub_Heading>
-                            wij maken van ondermen kinderspel. Dus wat is jouw{' '}
+                            Wij maken van ondermen kinderspel. Dus wat is jouw <br />
                             <Sub_HeadingColor>Exkuus?</Sub_HeadingColor>
                         </Sub_Heading>
                     </Left_Section>
@@ -35,7 +35,7 @@ const Hero = () => {
                 </Hero_Image>
             </Hero_>
             <Mobile_Sub_Heading>
-                wij maken van ondermen kinderspel. Dus wat is jouw
+                Wij maken van ondermen kinderspel. Dus wat is jouw
                 <Mobile_Sub_HeadingColor>Exkuus?</Mobile_Sub_HeadingColor>
             </Mobile_Sub_Heading>
         </>

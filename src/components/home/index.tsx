@@ -29,7 +29,7 @@ import gif from 'Images/vault.gif';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
-import { handleSubmit } from 'utils/newsletter-active-campaign';
+import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
 
 const HomePage = () => {
     const [state, setState] = useState({
@@ -54,11 +54,15 @@ const HomePage = () => {
         <HomeWrapper>
             <Dialog open={state.isDialogOpen} closeModal={closeModal} />
 
-            <VideoWrapper>
+            <VideoWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 <Video>
-                    <img width={'100%'} src={gif} alt="loading..." />
+                    <img
+                        width={'100%'}
+                        src={gif}
+                        alt="mensen open de kluis naar succes en financiële vrijheid"
+                    />
                 </Video>
-                <Right_Section data-sal="slide-left" data-sal-delay="400" data-sal-easing="ease">
+                <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                     <Header>
                         Financiële{' '}
                         <TextBlue fontWeight="700" mobileFontSize="26px" fontSize="44px">
@@ -68,7 +72,7 @@ const HomePage = () => {
                         <TextBlue fontWeight="700">Dat kan!</TextBlue>
                     </Header>
                     <Center>
-                        <Link to="/booking" style={{ textDecoration: 'none', color: 'black' }}>
+                        <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                             <Button
                                 text="start vandaag"
                                 background-color="#FFDF2B"
@@ -84,17 +88,22 @@ const HomePage = () => {
                     </Center>
                 </Right_Section>
             </VideoWrapper>
-
             <Home>
-                <Left_Section data-sal="slide-right" data-sal-delay="400" data-sal-easing="ease">
-                    <Heading>wat zeggen anderen over ons?</Heading>
+                <Left_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Heading>Wat zeggen anderen over ons?</Heading>
                 </Left_Section>
                 <Home_Image>
-                    <Image filename="home1.png" alt="home" width="100%" height="100%" />
+                    <Image
+                        filename="testimonial_hero.jpg"
+                        alt="groepsfoto Exkuus community"
+                        width="100%"
+                        height="100%"
+                    />
                 </Home_Image>
             </Home>
-            <ScrollWrapper data-sal="slide-up" data-sal-easing="ease">
-                <QuoteWrapper>
+
+            <ScrollWrapper>
+                <QuoteWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                     {quotes.map((quote, index) => (
                         <Quote key={index} bg={quote.bg} color={quote.color}>
                             <FlexCol>
@@ -135,13 +144,16 @@ const HomePage = () => {
                     </Link>
                 </ArrowContainer>
                 <br />
-                <MidWrapper>
-                    <Header text-align="left">nog steeds twijfels?</Header>
+                <MidWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Header text-align="left">Nog veel vraagtekens?</Header>
                     <Header
                         mobileFontSize="16px"
                         fontSize="22px"
                         text-align="left"
                         padding_bottom="50px"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     >
                         Wat als...
                     </Header>
@@ -153,7 +165,7 @@ const HomePage = () => {
                         </li>
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
-                                je nooit nog financiële zorgen meerhoeft te maken?
+                                je nooit nog financiële zorgen hoeft te maken?
                             </P>
                         </li>
                         <li>
@@ -164,7 +176,7 @@ const HomePage = () => {
                         <br />
                         <br />
                         <P width_mb="98%">
-                            <Link to="/booking" style={{ textDecoration: 'none', color: 'black' }}>
+                            <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                                 <TextBlue mobileFontSize="20px" fontSize="22px">
                                     Maak een vrijblijvende afspraak
                                 </TextBlue>
@@ -175,8 +187,18 @@ const HomePage = () => {
                         <br />
                     </ul>
                 </MidWrapper>
-                <Header>een paar leuke wist je datjes</Header>
-                <IconFiled_wrapper maxWidth="600px" padding_top="50px" padding_bottom="50px">
+
+                <Header data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    Een paar leuke wist je datjes
+                </Header>
+                <IconFiled_wrapper
+                    maxWidth="600px"
+                    padding_top="50px"
+                    padding_bottom="50px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <IconField
                         icon="military_tech"
                         color="#FFD580"
@@ -189,7 +211,7 @@ const HomePage = () => {
                         color="#A53030"
                         width="20px"
                         mobile_width="20px"
-                        paragraph="wij €8810 verzamelden met onze cursisten?"
+                        paragraph="Kjell zijn eerste marathon uitliep en samen met zijn cursisten meer dan €8810 verzamelden voor het goede doel?"
                     />
                     <IconField
                         icon="euro_symbol"
@@ -202,9 +224,10 @@ const HomePage = () => {
                     <br />
                     <div style={{ marginLeft: '55px' }}>
                         <P width_mb="100%">
-                            Meer weten over <TextBlue fontSize="21px">wie</TextBlue> waar we{' '}
-                            <TextBlue fontSize="21px">voor staan</TextBlue> en wat
-                            <TextBlue fontSize="21px"> ons doel </TextBlue>is?
+                            Meer weten over <TextBlue fontSize="21px">wie</TextBlue> we zijn,{' '}
+                            <TextBlue fontSize="21px">waar</TextBlue> we voor staan, en{' '}
+                            <TextBlue fontSize="21px">wat</TextBlue> ons
+                            <TextBlue fontSize="21px"> doel </TextBlue>is?
                         </P>
                     </div>
                 </IconFiled_wrapper>
@@ -214,15 +237,15 @@ const HomePage = () => {
                             <MR_image marginright="10px">
                                 <Back />
                             </MR_image>
-                            <P>
+                            <P data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                                 <Bold>Lees hier meer over ons</Bold>
                             </P>
                         </ArrowText>
                     </Link>
                 </ArrowContainer>
                 <br />
-                <Header text-align="center">
-                    elke week 3 mails
+                <Header data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    Elke week 3 mails
                     <br /> ontvangen die jouw
                     <br /> leven zomaar kunnen
                     <br />
@@ -231,7 +254,12 @@ const HomePage = () => {
                     </TextBlue>
                     ?
                 </Header>
-                <FormWrapper onSubmit={e => handleSubmit(e, openModal)}>
+                <FormWrapper
+                    onSubmit={e => handleSubmit(e, openModal)}
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     <TextFieldComponent
                         text="Jouw volledige naam"
                         background-color="#d9d9d9"

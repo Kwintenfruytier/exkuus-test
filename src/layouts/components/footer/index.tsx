@@ -69,13 +69,23 @@ const Footer = () => {
                     <Paragraph text-decoration="underline" width="124px">
                         Belangrijke informatie
                     </Paragraph>
-                    <Link to="/privacy">
+                    
+                    <Link to="/algemene-voorwaarden">
                         <Text>Algemene voorwaarden</Text>
                     </Link>
-                    <Link to="/general-conditions">
-                        <Text>disclaimers | sitemap</Text>
+                    
+                    <Link to="/privacy">
+                        <Text>disclaimers</Text>
+                         </Link> 
+
+                     <Link to="/gdpr">
+                        <Text>gdpr-beleid</Text>
+                        </Link>
+
+                    <Link to ="/sitemap/sitemap-index.xml">
+                        <Text>sitemap</Text>
                     </Link>
-                </Item>
+                    </Item>
                 <Item>
                     <Paragraph text-decoration="underline" width="124px">
                         Contact
@@ -89,10 +99,10 @@ const Footer = () => {
                     <Link to="/over-ons">
                         <Text>Over ons</Text>
                     </Link>
-                    <Link to="/booking">
+                    <Link to="/afspraak">
                         <Paragraph width="124px">Boek nu jouw afspraak</Paragraph>
                     </Link>
-                    <Link to="/newsletter">
+                    <Link to="/nieuwsbrief">
                         <Text>Ontvang onze nieuwsbrief</Text>
                     </Link>
                 </Item>

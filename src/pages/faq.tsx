@@ -11,11 +11,11 @@ const Faq = () => {
         <main>
             <Faq_main>
                 <Heading_width>
-                    <Heading>al jouw meest gestelde vragen op een rijtje</Heading>
+                    <Heading>Al jouw meest gestelde vragen op een rijtje</Heading>
                 </Heading_width>
                 <div>
                     <Image
-                        filename="faq1.png"
+                        filename="2 mensen praten en zoeken informatie"
                         alt="logo"
                         width="450px"
                         height="100%"
@@ -31,7 +31,7 @@ const Faq = () => {
 
             <div style={{ display: 'grid', justifyContent: 'center', margin: '50px 0' }}>
                 <Header text-align="left">
-                    zit jouw vraag er niet
+                    Zit jouw vraag er niet
                     <br /> tussen? Don’t worry! Je kan
                     <br /> ons altijd contacteren!
                 </Header>

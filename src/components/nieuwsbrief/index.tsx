@@ -1,12 +1,12 @@
-import { NewsWrapper, FormWrapper } from './newsletter';
+import { NewsWrapper, FormWrapper } from './nieuwsbrief';
 import { Header, Desc, TextBlue, TextYellow } from 'styles/typography';
 import TextFieldComponent from '../common/textField';
 import Button from '../common/commonButton';
 import Dialog from '@/common/modal';
 import { useState } from 'react';
-import { handleSubmit } from 'utils/newsletter-active-campaign';
+import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
 
-const NewsLetter = () => {
+const Nieuwsbrief = () => {
     const [state, setState] = useState({
         isDialogOpen: false,
     });
@@ -33,7 +33,7 @@ const NewsLetter = () => {
                 closeModal={closeModal}
             />
             <Header>
-                niet 1, niet 2... maar <TextBlue fontWeight="700">3 waardevolle emails</TextBlue>{' '}
+                Niet 1, niet 2... maar <TextBlue fontWeight="700">3 waardevolle emails</TextBlue>{' '}
                 per week!
             </Header>
             <Desc>
@@ -80,4 +80,4 @@ const NewsLetter = () => {
     );
 };
 
-export default NewsLetter;
+export default Nieuwsbrief;
