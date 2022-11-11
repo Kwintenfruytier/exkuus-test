@@ -82,16 +82,18 @@ export const VerticalTags = styled.div<{
 export const Tag = styled.div<{
     bg?: string;
 }>`
-    height: 200px;
+    height: 350px;
     width: 190px;
+
     background: ${props => props.bg || 'aqua'};
     color: ${props => props.color || 'black'};
+    overflow: auto;
     border-radius: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     ${mq['lg']} {
-        height: 150px;
+        height: 260px;
         width: 130px;
     }
 `;
@@ -161,7 +163,7 @@ export const Rotate = styled.p<{
     transform: rotate(270deg);
     transform-origin: 0 0;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 18px;
     color: ${props => props.color || 'black'};
     ${mq['lg']} {
         font-size: 13px;

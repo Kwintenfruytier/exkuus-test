@@ -37,6 +37,7 @@ export const HeaderTitle = styled.p`
     font-weight: 700;
     font-size: 35px;
     text-align: center;
+
     margin: 0;
     margin-top: 5%;
     ${mq['md']} {
@@ -61,6 +62,7 @@ export const Header = styled.p<{
     font-weight: ${props => props.weight || '700'};
     font-size: ${props => props.fontSize || '38px'};
     letter-spacing: 0.2em;
+
     margin: 0;
     margin-top: 5%;
     margin-bottom: ${props => props.mb || '0'};
@@ -88,6 +90,7 @@ export const Desc = styled(Header)`
 `;
 export const Content = styled.span`
     color: #00000080;
+
     font-size: 18px;
     letter-spacing: 0px ${mq['sm']} {
         font-size: 8px;
@@ -168,6 +171,7 @@ export const P = styled.p<{
     weight?: string;
     size?: string;
     border_bottom?: string;
+    padding_top?: string;
     padding_bottom?: string;
     width_mb?: string;
     textAlign_mob?: string;
@@ -181,6 +185,7 @@ export const P = styled.p<{
     text-align: ${props => props.textAlign || 'left'};
     color: ${props => props.color || 'black'};
 
+    padding-top: ${props => props.padding_top || '0px'};
     padding-bottom: ${props => props.padding_bottom || '0px'};
     line-height: 24px;
     letter-spacing: 2px;
@@ -287,6 +292,7 @@ export const Diensten_statement = styled.div`
     justify-content: center;
     align-items: center;
     text-align: start;
+
     ${mq['sm']} {
         margin-bottom: 0px;
         width: 100%;
@@ -341,7 +347,7 @@ export const Diensten_paragraph = styled.div<{ mobile_width?: string }>`
     margin-left: auto;
     margin-right: auto;
     margin-top: ${(p: margintop) => (p.margintop ? p.margintop : '90px')};
-    text-align: ${(p: text_align) => (p.text_align ? p.text_align : 'center')};
+    text-align: ${(p: textalign) => (p.text_align ? p.text_align : 'center')};
     font-size: ${(p: fontsize) => (p.fontsize ? p.fontsize : '26px')};
 
     font-weight: ${(p: font_weight) => (p.font_weight ? p.font_weight : '400')};

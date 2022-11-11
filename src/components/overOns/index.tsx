@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
     OverOnsWrapper,
     Main,
@@ -126,6 +127,7 @@ const overOns = () => {
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
+                        size="16px"
                         tabletSize="12px"
                         mobileSize="12px"
                         data-sal="fade"
@@ -169,8 +171,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         textAlign_mob="center"
@@ -209,11 +212,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -249,8 +253,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
@@ -290,11 +295,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -330,8 +336,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
@@ -370,11 +377,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
@@ -411,8 +419,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="120px"
@@ -452,11 +461,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
@@ -493,8 +503,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
@@ -535,11 +546,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
@@ -576,8 +588,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="15px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
@@ -619,11 +632,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
@@ -661,9 +675,9 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        size="15px"
-                        tabletSize="12px"
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         color="white"
                         width_mb="100%"
@@ -704,11 +718,12 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="16px"
+                        mobileSize="10px"
+                        tabletSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        tabletSize="12px"
                         color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
@@ -744,7 +759,8 @@ const overOns = () => {
                     data-sal-duration="3000ms"
                 >
                     <P
-                        mobileSize="12px"
+                        size="14px"
+                        mobileSize="10px"
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
@@ -779,7 +795,7 @@ const overOns = () => {
 
             <Arrow />
 
-            <Header width="100%">ons team</Header>
+            <Header>ons team</Header>
             <Teams>
                 <Members>
                     <Member_Img>
