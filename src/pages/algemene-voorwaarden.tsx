@@ -5,9 +5,11 @@ const Conditions: Page = () => (
     <main>
         <PrivacyContainer>
             <br />
-            <Privacy_heading>Inkomsten Disclaimer</Privacy_heading>
+            <Privacy_heading data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                Inkomsten Disclaimer
+            </Privacy_heading>
             <p>Laatst Geüpdate op 18 augustus 2020</p>
-            <Pinkomsten_para>
+            <Pinkomsten_para data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 INKOMSTEN DISCLAIMER: WIJ GELOVEN NIET IN “WORD-SNEL-RIJK” PROGRAMMA’S. WIJ GELOVEN
                 IN HARD WERKEN, WAARDE TOEVOEGEN EN ANDEREN HELPEN. DIT IS DAN OOK WAARVOOR ONZE
                 PROGRAMMA’S ONTWORPEN ZIJN. WIJ MAKEN GEEN CLAIMS OF GARANTIES DAT JIJ GELD ZULT

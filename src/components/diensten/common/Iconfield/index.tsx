@@ -6,12 +6,19 @@ const IconField = ({ icon, paragraph, marginleft, color }: any) => {
     return (
         <Suspense fallback={<div />}>
             <FieldIcon>
-                <Logo>
+                <Logo data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                     {typeof window !== 'undefined' ? (
                         <MaterialIcon icon={icon} color={color} size={36} />
                     ) : null}
                 </Logo>
-                <Paragraph marginleft={marginleft}>{paragraph}</Paragraph>
+                <Paragraph
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                    marginleft={marginleft}
+                >
+                    {paragraph}
+                </Paragraph>
             </FieldIcon>
         </Suspense>
     );

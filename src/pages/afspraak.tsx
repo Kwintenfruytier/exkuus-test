@@ -24,17 +24,25 @@ const Booking = () => {
                     height="100%"
                     mobile_width="280px"
                 />
-                <Header style={{ paddingBottom: 50, textAlign: 'center' }}>
+                <Header
+                    style={{ paddingBottom: 50, textAlign: 'center' }}
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     Wees trots op jezelf! <br />
                     je hebt de eerste stap gezet naar
                     <br />
-                    <TextBlue fontweight="700" mobileFontSize="28px" fontSize="45px">
+                    <TextBlue fontWeight="700" mobileFontSize="28px" fontSize="45px">
                         succes/een vrijer leven!
                     </TextBlue>
                 </Header>
             </div>
             <InlineWidget
                 styles={{ height: '100vh' }}
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
                 url="https://calendly.com/elysium-coaching/anderzom"
             />
         </div>

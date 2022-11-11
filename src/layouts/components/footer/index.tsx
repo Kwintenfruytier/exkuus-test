@@ -30,7 +30,15 @@ const Footer = () => {
             <SeperatorThin />
             <Desktop_hidden>
                 <br />
-                <Image filename="logo.png" alt="logo" width="191px" mobile_width="129px" />
+                <Image
+                    filename="logo.png"
+                    alt="logo"
+                    width="191px"
+                    mobile_width="129px"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                />
             </Desktop_hidden>
             <Grid>
                 <Item_hidden>
@@ -43,10 +51,24 @@ const Footer = () => {
                                 width="191px"
                                 height="41px"
                                 mobile_width="129px"
+                                data-sal="fade"
+                                data-sal-easing="ease-in"
+                                data-sal-duration="3000ms"
                             />
                         </Hidden>
-                        <SocialIcons />
-                        <Paragraph white-space="nowrap" font-size="14px" margin-top="-20px">
+                        <SocialIcons
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
+                        />
+                        <Paragraph
+                            white-space="nowrap"
+                            font-size="14px"
+                            margin-top="-20px"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
+                        >
                             BTW-NR: BE 0752.610.231
                         </Paragraph>
                         <br />
@@ -59,6 +81,9 @@ const Footer = () => {
                             width="100%"
                             font-size="12px"
                             margin-top="-20px"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             BTW-NR: BE 0752.610.231
                         </Paragraph>
@@ -66,44 +91,71 @@ const Footer = () => {
                     <Hidden_socialicons>
                         <SocialIcons />
                     </Hidden_socialicons>
-                    <Paragraph text-decoration="underline" width="124px">
+                    <Paragraph
+                        text-decoration="underline"
+                        width="124px"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
                         Belangrijke informatie
                     </Paragraph>
-                    
+
                     <Link to="/algemene-voorwaarden">
-                        <Text>Algemene voorwaarden</Text>
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            Algemene voorwaarden
+                        </Text>
                     </Link>
-                    
+
                     <Link to="/privacy">
-                        <Text>disclaimers</Text>
-                         </Link> 
-
-                     <Link to="/gdpr">
-                        <Text>gdpr-beleid</Text>
-                        </Link>
-
-                    <Link to ="/sitemap/sitemap-index.xml">
-                        <Text>sitemap</Text>
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            disclaimers
+                        </Text>
                     </Link>
-                    </Item>
+
+                    <Link to="/gdpr">
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            gdpr-beleid
+                        </Text>
+                    </Link>
+
+                    <Link to="/sitemap/sitemap-index.xml">
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            sitemap
+                        </Text>
+                    </Link>
+                </Item>
                 <Item>
                     <Paragraph text-decoration="underline" width="124px">
                         Contact
                     </Paragraph>
                     <Link to="/contact">
-                        <Text>een vraag? Stuur ons een mailtje! </Text>
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            een vraag? Stuur ons een mailtje!{' '}
+                        </Text>
                     </Link>
                     <Paragraph text-decoration="underline" width="124px">
                         Wie zijn we?
                     </Paragraph>
                     <Link to="/over-ons">
-                        <Text>Over ons</Text>
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            Over ons
+                        </Text>
                     </Link>
                     <Link to="/afspraak">
-                        <Paragraph width="124px">Boek nu jouw afspraak</Paragraph>
+                        <Paragraph
+                            width="124px"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
+                        >
+                            Boek nu jouw afspraak
+                        </Paragraph>
                     </Link>
                     <Link to="/nieuwsbrief">
-                        <Text>Ontvang onze nieuwsbrief</Text>
+                        <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                            Ontvang onze nieuwsbrief
+                        </Text>
                     </Link>
                 </Item>
                 <Item>
@@ -113,7 +165,11 @@ const Footer = () => {
                         </Paragraph>
                         <br />
                         <Link to="/kmo">
-                            <Kmo />
+                            <Kmo
+                                data-sal="fade"
+                                data-sal-easing="ease-in"
+                                data-sal-duration="3000ms"
+                            />
                         </Link>
 
                         <Paragraph
@@ -123,6 +179,9 @@ const Footer = () => {
                             white-space="nowrap"
                             width="100%"
                             text-align="left"
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
                         >
                             Geregistreerd bij het Vlaams Gewest voor Opleiding <br />
                             <strong>Registratienummer: </strong>
@@ -148,7 +207,14 @@ const Footer = () => {
                 </Item>
             </Grid>
             <Hidden_desktop style={{ width: '90%', margin: '0 auto' }}>
-                <Paragraph text-align="left" width="100%" font-weight="700">
+                <Paragraph
+                    text-align="left"
+                    width="100%"
+                    font-weight="700"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     ONZE TROTSE PARTNERS
                 </Paragraph>
                 <br />
@@ -162,6 +228,9 @@ const Footer = () => {
                     white-space="nowrap"
                     width="100%"
                     text-align="left"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
                 >
                     Geregistreerd bij het Vlaams Gewest voor Opleiding <br />
                     <strong>Registratienummer: </strong>

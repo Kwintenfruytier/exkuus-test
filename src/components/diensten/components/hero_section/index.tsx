@@ -19,14 +19,30 @@ const Hero = () => {
     return (
         <>
             <br />
-            <Mobile_Heading>Leer meer over onze diensten</Mobile_Heading>
-            <Hero_>
+            <Mobile_Heading data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                Leer meer over onze diensten
+            </Mobile_Heading>
+            <Hero_ data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 <Hide>
-                    <Left_Section>
-                        <Heading width="100%">Leer meer over onze diensten</Heading>
-                        <Sub_Heading>
+                    <Left_Section
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    >
+                        <Heading>Leer meer over onze diensten</Heading>
+                        <Sub_Heading
+                            data-sal="fade"
+                            data-sal-easing="ease-in"
+                            data-sal-duration="3000ms"
+                        >
                             Wij maken van ondermen kinderspel. Dus wat is jouw <br />
-                            <Sub_HeadingColor>Exkuus?</Sub_HeadingColor>
+                            <Sub_HeadingColor
+                                data-sal="fade"
+                                data-sal-easing="ease-in"
+                                data-sal-duration="3000ms"
+                            >
+                                Exkuus?
+                            </Sub_HeadingColor>
                         </Sub_Heading>
                     </Left_Section>
                 </Hide>
@@ -34,7 +50,11 @@ const Hero = () => {
                     <Diensten_hero />
                 </Hero_Image>
             </Hero_>
-            <Mobile_Sub_Heading>
+            <Mobile_Sub_Heading
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
                 Wij maken van ondermen kinderspel. Dus wat is jouw
                 <Mobile_Sub_HeadingColor>Exkuus?</Mobile_Sub_HeadingColor>
             </Mobile_Sub_Heading>

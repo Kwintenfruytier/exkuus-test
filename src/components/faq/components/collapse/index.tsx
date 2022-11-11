@@ -24,7 +24,7 @@ const Collapse = ({ question, answer }: any) => {
     return (
         <Faq>
             <Faq_div>
-                <Answer_wraper>
+                <Answer_wraper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                     <Collapse_ onClick={toggleIsLoading}>
                         <Logo_close>
                             <Close />

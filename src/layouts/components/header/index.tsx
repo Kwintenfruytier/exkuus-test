@@ -184,7 +184,10 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                 </Header_Link>
                                             </MenuItem>
                                         </StyledLink>
-                                        <AnchorLink target="_blank" href="https://www.youtube.com/">
+                                        <AnchorLink
+                                            target="_blank"
+                                            href="https://www.youtube.com/c/kjellfruytier"
+                                        >
                                             <StyledLink onClick={() => setOpenModal(!openModal)}>
                                                 <MenuItem>
                                                     <MR_image marginright="35px">
@@ -199,7 +202,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                             </StyledLink>
                                         </AnchorLink>
                                         <StyledLink
-                                            to="/newsletter"
+                                            to="/nieuwsbrief"
                                             onClick={() => setOpenModal(!openModal)}
                                         >
                                             <MenuItem>
@@ -208,7 +211,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                 </MR_image>
 
                                                 <Header_Link
-                                                    active={location.pathname === '/newsletter/'}
+                                                    active={location.pathname === '/nieuwsbrief/'}
                                                 >
                                                     nieuwsbrief
                                                 </Header_Link>

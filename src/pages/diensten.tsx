@@ -27,39 +27,79 @@ import { Paragraph } from '@/diensten/common/Iconfield/Iconfiled';
 const diensten = () => {
     return (
         <Diensten_section>
-            <Hero />
+            <Hero data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
             <Banner_img_wrapper>
-                <Banner_img>
-                    <Anderzom />
+                <Banner_img data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Anderzom
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    />
                 </Banner_img>
             </Banner_img_wrapper>
 
             <Diensten_statement>
                 <BackgroundShadow />
-                <Diensten_title>Herken jij je in 1 van deze uitspraken?</Diensten_title>
+                <Diensten_title
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    Herken jij je in 1 van deze uitspraken?
+                </Diensten_title>
 
-                <Diensten_description1>
+                <Diensten_description1
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     “Ik ben ambitieus en wil meer uit het leven halen dan mijn 9-5”
                 </Diensten_description1>
-                <Diensten_description2>
+                <Diensten_description2
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     “Al mijn dagen zijn hetzelfde. Ik ben dat echt beu!”
                 </Diensten_description2>
-                <Diensten_description1>
+                <Diensten_description1
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     “Ik wil meer tijd voor mijzelf en de personen om wie ik geef.”
                 </Diensten_description1>
-                <Diensten_description2>
+                <Diensten_description2
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     “Ik ben bereid om hard te werken voor het behalen van mijn doelen en dromen”
                 </Diensten_description2>
-                <Diensten_description1>“Niets komt vanzelf, toch?”</Diensten_description1>
+                <Diensten_description1
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
+                    “Niets komt vanzelf, toch?”
+                </Diensten_description1>
             </Diensten_statement>
 
-            <Diensten_paragraph>
+            <Diensten_paragraph
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
                 <TextBlue mobileFontSize="22px" fontSize="38px">
                     Ja, het kan anders.
                 </TextBlue>{' '}
                 Wat kan je verwachten van ons ‘anderzom’ coaching programma?
             </Diensten_paragraph>
-            <Diensten_statement_wrapper>
+            <Diensten_statement_wrapper
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
                 <IconField
                     icon="support_agent"
                     color="#1F4668"
@@ -102,17 +142,38 @@ const diensten = () => {
                     paragraph="1x per KWARTAAL een virtuele mastermind"
                 />
             </Diensten_statement_wrapper>
-            <Diensten_descriptionColor>
+            <Diensten_descriptionColor
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
                 Ben jij klaar om de stap te zetten?
             </Diensten_descriptionColor>
             <Link to="/afspraak">
-                <Dienten_Button marginbottom="5rem">
+                <Dienten_Button
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     IK BEN KLAAR OM MIJN LEVEN TE VERANDEREN
                 </Dienten_Button>{' '}
             </Link>
             <Diensten_paragraph fontsize="22px"></Diensten_paragraph>
-            <Diensten_Hero_title>NEXT LEVEL MASTERMIND</Diensten_Hero_title>
-            <Diensten_paragraph fontsize="22px" text_align="start" font_weight="400">
+            <Diensten_Hero_title
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
+                NEXT LEVEL MASTERMIND
+            </Diensten_Hero_title>
+            <Diensten_paragraph
+                fontsize="22px"
+                text_align="start"
+                font_weight="400"
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
                 Ben je al ondernemer en struikel je om door te schalen met je bedrijf? Wil je naar
                 het volgende niveau gaan? Dan hebben wij voor jou <TextBlue>dé</TextBlue> oplossing!
                 In onze <TextBlue>Next Level Mastermind</TextBlue> mag je de volgende puntjes
@@ -125,6 +186,9 @@ const diensten = () => {
                 marginbottom="24px"
                 margintop="-35px"
                 font_weight="400"
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
             >
                 Naast
                 <TextBlue mobileFontSize="22px" fontSize="26px">
@@ -155,6 +219,9 @@ const diensten = () => {
                         border-radius="10px"
                         font-size="16px"
                         text-align="center"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     />
                 </Link>
             </Button_wrapper>

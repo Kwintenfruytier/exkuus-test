@@ -11,12 +11,19 @@ const Faq = () => {
         <main>
             <Faq_main>
                 <Heading_width>
-                    <Heading>Al jouw meest gestelde vragen op een rijtje</Heading>
+                    <Heading
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                        data-sal-delay="1000ms"
+                    >
+                        Al jouw meest gestelde vragen op een rijtje
+                    </Heading>
                 </Heading_width>
                 <div>
                     <Image
-                        filename="2 mensen praten en zoeken informatie"
-                        alt="logo"
+                        filename="faq1.png"
+                        alt="2 mensen praten en zoeken informatie"
                         width="450px"
                         height="100%"
                         tab_width="250px"
@@ -26,11 +33,23 @@ const Faq = () => {
             </Faq_main>
             <br />
             {faq_data.map((item, i) => (
-                <Collapse question={item.question} answer={item.answer} key={i} />
+                <Collapse
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                    question={item.question}
+                    answer={item.answer}
+                    key={i}
+                />
             ))}
 
             <div style={{ display: 'grid', justifyContent: 'center', margin: '50px 0' }}>
-                <Header text-align="left">
+                <Header
+                    text-align="left"
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                >
                     Zit jouw vraag er niet
                     <br /> tussen? Don’t worry! Je kan
                     <br /> ons altijd contacteren!

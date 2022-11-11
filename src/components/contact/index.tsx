@@ -48,7 +48,7 @@ const Contact = () => {
         formData.append('fullname', e.target[0].value);
         formData.append('email', e.target[1].value);
         formData.append('phone', e.target[2].value);
-        formData.append('account', e.target[3].value);
+        formData.append('field[39]', e.target[3].value);
         fetch(ACTIVE_CAMPAIGN_CONTACT_URL, {
             method: 'POST',
             body: formData,

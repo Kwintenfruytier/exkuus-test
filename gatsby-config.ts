@@ -21,7 +21,7 @@ const config: GatsbyConfig = {
             resolve: `gatsby-plugin-scroll-reveal`,
             options: {
                 threshold: 0.7, // Percentage of an element's area that needs to be visible to launch animation
-                once: false, // Defines if animation needs to be launched once
+                once: true, // Defines if animation needs to be launched once
             },
         },
         {
