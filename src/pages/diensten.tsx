@@ -186,9 +186,6 @@ const diensten = () => {
                 marginbottom="24px"
                 margintop="-35px"
                 font_weight="400"
-                data-sal="fade"
-                data-sal-easing="ease-in"
-                data-sal-duration="3000ms"
             >
                 Naast
                 <TextBlue mobileFontSize="22px" fontSize="26px">
@@ -202,7 +199,13 @@ const diensten = () => {
                     {diensten_data.map((items, index) => (
                         <ul key={index}>
                             <li>
-                                <Paragraph>{items.paragraph}</Paragraph>
+                                <Paragraph
+                                    data-sal="fade"
+                                    data-sal-easing="ease-in"
+                                    data-sal-duration="3000ms"
+                                >
+                                    {items.paragraph}
+                                </Paragraph>
                             </li>
                         </ul>
                     ))}
