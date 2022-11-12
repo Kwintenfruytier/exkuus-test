@@ -8,6 +8,7 @@ import { ReactComponent as Quiz } from '../../../Images/svg/quiz.svg';
 import { ReactComponent as Contact } from '../../../Images/svg/contact.svg';
 import { ReactComponent as Youtube } from '../../../Images/svg/youtube.svg';
 import { ReactComponent as Menu } from '../../../Images/svg/menu.svg';
+import { ReactComponent as Quote } from '../../../Images/svg/quote.svg';
 const MaterialIcon = lazy(() => import('material-icons-react'));
 import { Link } from 'gatsby';
 import { navlinks } from 'constant/nav-links';
@@ -229,6 +230,21 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                                     active={location.pathname === '/contact/'}
                                                 >
                                                     contact
+                                                </Header_Link>
+                                            </MenuItem>
+                                        </StyledLink>
+                                        <StyledLink
+                                            to="/testimonials"
+                                            onClick={() => setOpenModal(!openModal)}
+                                        >
+                                            <MenuItem>
+                                                <MR_image marginright="34px">
+                                                    <Quote />
+                                                </MR_image>
+                                                <Header_Link
+                                                    active={location.pathname === '/testimonials/'}
+                                                >
+                                                    testimonials
                                                 </Header_Link>
                                             </MenuItem>
                                         </StyledLink>

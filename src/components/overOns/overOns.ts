@@ -81,6 +81,7 @@ export const VerticalTags = styled.div<{
 `;
 export const Tag = styled.div<{
     bg?: string;
+    mb_height?: string;
 }>`
     height: 350px;
     width: 190px;

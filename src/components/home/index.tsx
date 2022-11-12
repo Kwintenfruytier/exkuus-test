@@ -54,7 +54,12 @@ const HomePage = () => {
         <HomeWrapper>
             <Dialog open={state.isDialogOpen} closeModal={closeModal} />
 
-            <VideoWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+            <VideoWrapper
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+                data-sal-delay="1500ms"
+            >
                 <Video>
                     <img
                         width={'100%'}
@@ -62,7 +67,12 @@ const HomePage = () => {
                         alt="mensen open de kluis naar succes en financiële vrijheid"
                     />
                 </Video>
-                <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                <Right_Section
+                    data-sal="fade"
+                    data-sal-easing="ease-in"
+                    data-sal-duration="3000ms"
+                    data-sal-delay="1500ms"
+                >
                     <Header>
                         Financiële{' '}
                         <TextBlue fontWeight="700" mobileFontSize="26px" fontSize="44px">
@@ -88,8 +98,8 @@ const HomePage = () => {
                     </Center>
                 </Right_Section>
             </VideoWrapper>
-            <Home>
-                <Left_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+            <Home data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                <Left_Section>
                     <Heading>Wat zeggen anderen over ons?</Heading>
                 </Left_Section>
                 <Home_Image>
@@ -98,15 +108,22 @@ const HomePage = () => {
                         alt="groepsfoto Exkuus community"
                         width="100%"
                         height="100%"
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
                     />
                 </Home_Image>
             </Home>
 
-            <ScrollWrapper>
-                <QuoteWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+            <ScrollWrapper data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                <QuoteWrapper>
                     {quotes.map((quote, index) => (
                         <Quote key={index} bg={quote.bg} color={quote.color}>
-                            <FlexCol>
+                            <FlexCol
+                                data-sal="fade"
+                                data-sal-easing="ease-in"
+                                data-sal-duration="3000ms"
+                            >
                                 <span
                                     style={{
                                         paddingBottom: '5px',
@@ -151,13 +168,15 @@ const HomePage = () => {
                         fontSize="22px"
                         text-align="left"
                         padding_bottom="50px"
+                    >
+                        Wat als...
+                    </Header>
+                    <ul
+                        className="homePoints"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        Wat als...
-                    </Header>
-                    <ul className="homePoints">
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
                                 je kan werken van overal ter wereld?

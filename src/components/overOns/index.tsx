@@ -514,9 +514,8 @@ const overOns = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        Kjell engageert zich tot het lopen van een marathon met een inzamelactie
-                        voor het goede doel - De instantie "Raakzaam" wordt beloond met €8810,- en
-                        enkele gloednieuwe sport accomodaties!
+                        Kjell loopt een marathon voor het goede doel - "Raakzaam" wordt beloond met
+                        €8810,- en enkele gloednieuwe sport accomodaties!
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -558,7 +557,7 @@ const overOns = () => {
                         data-sal-duration="3000ms"
                     >
                         EXKUUS organiseert haar allereerste "evenement" voor 100 van haar cursisten,
-                        een dag vol ambiance en wijsheid in het Van der Valk hotel te Beveren.
+                        een dag vol ambiance en wijsheid om nooit te vergeten.
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -599,10 +598,8 @@ const overOns = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        Kjell lanceert zijn eigen 'YouTube' kanaal waarin hij gratis en voor niets
-                        meermaals per week waarde en motivatie deelt met elke enthousiasteling die
-                        hem volgt. Met als uiteindelijke missie "het impacten van 1 miljoen mensen
-                        hun leven"!
+                        Kjell lanceert zijn 'YouTube' kanaal waarin hij meermaals per week waarde en
+                        motivatie deelt. "1 miljoen mensen hun leven impacten is het doel"!
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -643,9 +640,8 @@ const overOns = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        Kjell lanceert zijn eigen 'TikTok' kanaal waarin hij gratis en voor niets 7
-                        op 7 waarde en motivatie deelt met elke enthousiasteling die hem volgt. Met
-                        als uiteindelijke missie "het impacten van 1 miljoen mensen hun leven"!
+                        Kjell lanceert zijn 'TikTok' kanaal waarin hij 7 op 7 waarde en motivatie
+                        deelt. "1 miljoen mensen hun leven impacten is het doel"!
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -686,9 +682,8 @@ const overOns = () => {
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
                     >
-                        EXKUUS creëert naast haar opleidingstraject een exclusiever concept - "Next
-                        Level Mastermind" - Waarin het opschalen van jezelf als ondernemer en jouw
-                        zaak centraal staan.
+                        EXKUUS creëert een exclusiever concept - "Next Level Mastermind" - Waarin
+                        het opschalen van jezelf als ondernemer en jouw zaak centraal staan.
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
@@ -769,11 +764,11 @@ const overOns = () => {
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
+                        padding_top="1em"
                     >
-                        EXKUUS bereikt een volgende grote mijlpaal en sluit zich aan bij de
-                        KMO-Portefeuille - Vanaf nu zijn ook wij officiële dienstverlener voor de
-                        Vlaamse Overheid en kunnen (toekomstig) ondernemers tot 30% subsidies
-                        genieten op al onze programma's.
+                        EXKUUS sluit zich aan bij de KMO-Portefeuille als officiële dienstverlener
+                        van de Vlaamse Overheid - (Toekomstig) Ondernemers genieten hierdoor tot 30%
+                        subsidies.
                     </P>
                 </Tag>
                 <Connector data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">

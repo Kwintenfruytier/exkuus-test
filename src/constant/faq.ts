@@ -25,10 +25,10 @@ export const faq_data = [
     },
     {
         question: 'Is Kjell wel betrouwbaar?',
-        answer: 'Het beste antwoord dat we kunnen geven, is om eens een kijke je te nemen naar wat anderen over ons zeggen.',
+        answer: 'Het beste antwoord dat we kunnen geven, is om eens een kijkje te nemen naar wat anderen over ons zeggen.',
     },
     {
-        question: 'Wie beantwoord de vragen in de community?',
+        question: 'Wie beantwoordt de vragen in de community?',
         answer: 'Naast de moderatoren staan ook Kjell & Nomi altijd paraat om vragen in de community te beantwoorden. Zelfs discrete vragen kunnen worden gesteld, deze worden dan ook persoonlijk behandeld.',
     },
 

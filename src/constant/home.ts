@@ -1,13 +1,13 @@
 export const quotes = [
     {
-        name: 'Het Is Gewoon Een No Brainer',
-        name2: '- Nick P.',
+        name: 'Kjell Fruytier, je bent een mentor... Je bent een fantastisch voorbeeld... Je bent... gewoon jezelf en wie je bent. Dat alleen al, zorgt dat iedereen onder ons vooruit gaat. Een welgemeende bedankt om ons gisteren een shot onder de kont te geven om vooruit te gaan, om het beste uit onszelf te halen iedere dag opnieuw.',
+        name2: '- Sven V.D.W.',
         bg: '#FFDF2B',
         color: '#4c3041',
     },
     {
-        name: 'Mijn verwachtingen zijn meer dan ingelost! Je bereikt gegarandeerd resultaat!',
-        name2: '- Martin L',
+        name: 'Anderzom brengt een positieve flow in mijn leven...Een team die in ons allemaal gelooft en ons de kans geeft om ons leven compleet te veranderen, de mindset die in Anderzom aanwezig is, is magisch.',
+        name2: '- Evelyn D.M.',
         bg: '#1F4668',
         color: '#FFFFFF',
     },

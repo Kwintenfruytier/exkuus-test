@@ -32,11 +32,16 @@ const Nieuwsbrief = () => {
                 open={state.isDialogOpen}
                 closeModal={closeModal}
             />
-            <Header>
+            <Header
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+                data-sal-delay="3000ms"
+            >
                 Niet 1, niet 2... maar <TextBlue fontWeight="700">3 waardevolle emails</TextBlue>{' '}
                 per week!
             </Header>
-            <Desc>
+            <Desc data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 Wij geloven in kwaliteit boven kwantiteit. Door je aan te melden ontvang je iedere
                 week <TextBlue>1 nieuwe YouTube video, 1 ervaring en 1 succesverhaal</TextBlue>.
             </Desc>

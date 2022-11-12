@@ -28,13 +28,13 @@ const diensten = () => {
     return (
         <Diensten_section>
             <Hero data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
-            <Banner_img_wrapper>
-                <Banner_img data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
-                    <Anderzom
-                        data-sal="fade"
-                        data-sal-easing="ease-in"
-                        data-sal-duration="3000ms"
-                    />
+            <Banner_img_wrapper
+                data-sal="fade"
+                data-sal-easing="ease-in"
+                data-sal-duration="3000ms"
+            >
+                <Banner_img>
+                    <Anderzom />
                 </Banner_img>
             </Banner_img_wrapper>
 
@@ -156,7 +156,7 @@ const diensten = () => {
                     data-sal-duration="3000ms"
                 >
                     IK BEN KLAAR OM MIJN LEVEN TE VERANDEREN
-                </Dienten_Button>{' '}
+                </Dienten_Button>
             </Link>
             <Diensten_paragraph fontsize="22px"></Diensten_paragraph>
             <Diensten_Hero_title

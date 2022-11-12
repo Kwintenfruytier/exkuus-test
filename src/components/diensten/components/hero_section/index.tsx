@@ -34,8 +34,9 @@ const Hero = () => {
                             data-sal="fade"
                             data-sal-easing="ease-in"
                             data-sal-duration="3000ms"
+                            data-sal-delay="2000ms"
                         >
-                            Wij maken van ondermen kinderspel. Dus wat is jouw <br />
+                            Wij maken van ondernemen kinderspel. Dus wat is jouw <br />
                             <Sub_HeadingColor
                                 data-sal="fade"
                                 data-sal-easing="ease-in"
@@ -46,8 +47,12 @@ const Hero = () => {
                         </Sub_Heading>
                     </Left_Section>
                 </Hide>
-                <Hero_Image>
-                    <Diensten_hero />
+                <Hero_Image data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
+                    <Diensten_hero
+                        data-sal="fade"
+                        data-sal-easing="ease-in"
+                        data-sal-duration="3000ms"
+                    />
                 </Hero_Image>
             </Hero_>
             <Mobile_Sub_Heading
@@ -55,7 +60,7 @@ const Hero = () => {
                 data-sal-easing="ease-in"
                 data-sal-duration="3000ms"
             >
-                Wij maken van ondermen kinderspel. Dus wat is jouw
+                Wij maken van ondernemen kinderspel. Dus wat is jouw
                 <Mobile_Sub_HeadingColor>Exkuus?</Mobile_Sub_HeadingColor>
             </Mobile_Sub_Heading>
         </>

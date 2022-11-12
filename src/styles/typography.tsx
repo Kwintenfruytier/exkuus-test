@@ -399,6 +399,8 @@ export const Dienten_Button = styled.div`
     background-color: #ffdf2b;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
     font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
     padding-top: 16px;
     padding-bottom: 16px;
     border: none;
@@ -406,7 +408,7 @@ export const Dienten_Button = styled.div`
     padding-left: 20px;
     border-radius: 12px;
     font-weight: 500;
-    width: 290px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +416,7 @@ export const Dienten_Button = styled.div`
     margin: 0 auto;
     ${mq['sm']} {
         font-size: 13px;
-        width: 213px;
+        width: 285px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 5px;

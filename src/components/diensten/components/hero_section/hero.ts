@@ -83,7 +83,7 @@ export const Mobile_Heading = styled.div`
         width: 208px;
         font-weight: 700;
         font-size: 26px;
-        line-height: 21.5px;
+        line-height: 28px;
         letter-spacing: 2.25px;
         color: #000000;
     }
@@ -101,7 +101,7 @@ export const Mobile_Sub_Heading = styled.div`
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
-        width: 230px;
+        width: 280px;
         font-weight: 700;
         font-size: 26px;
         line-height: 27px;

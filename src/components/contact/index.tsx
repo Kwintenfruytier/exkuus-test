@@ -131,7 +131,7 @@ const Contact = () => {
                     <br />
                     <Header text-align="left">
                         Heb je een vraag? Je kan ons altijd een mailtje sturen!
-                        <Content>(en ja, wij betanwoorden ze persoonlijk EN op maat ;))</Content>
+                        <Content>(en ja, wij beantwoorden ze persoonlijk EN op maat ;))</Content>
                     </Header>
                 </Container>
 
@@ -167,7 +167,7 @@ const Contact = () => {
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>
-                        <TopAdornment>GSM*</TopAdornment>
+                        <TopAdornment>GSM</TopAdornment>
                         <TextFieldComponent
                             text="Jouw gsm nummer"
                             background-color="none"
@@ -178,7 +178,6 @@ const Contact = () => {
                             input={true}
                             name="phone"
                             width="100%"
-                            required
                         />
                     </AdornmentWrapper>
                     <AdornmentWrapper>

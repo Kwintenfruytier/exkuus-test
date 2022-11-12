@@ -197,5 +197,6 @@ export const Heading = styled.p`
         line-height: 26px;
         font-size: 24px;
         letter-spacing: 2.25px;
+        padding-right: 0.5em;
     }
 `;
