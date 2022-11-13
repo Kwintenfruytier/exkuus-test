@@ -69,8 +69,8 @@ const config: GatsbyConfig = {
                             fontDisplay: 'swap',
                         },
                     ],
-                    usePreload: true,
                 },
+                usePreload: true,
             },
         },
         {
