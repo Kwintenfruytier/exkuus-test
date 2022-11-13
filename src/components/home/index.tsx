@@ -25,7 +25,7 @@ import Button from '../common/commonButton';
 import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import heroImage from '../../Images/home_hero.webm';
+import heroImage from '../../Images/homeHeroImage.mp4';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
