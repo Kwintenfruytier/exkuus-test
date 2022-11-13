@@ -61,6 +61,7 @@ export const Text = styled.div`
     font-family: 'Cario';
     font-size: 16px;
     font-weight: 300;
+    font-display: swap;
     padding-top: 20px;
     text-align: center;
     letter-spacing: 1.5px;

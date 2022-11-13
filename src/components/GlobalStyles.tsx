@@ -66,6 +66,7 @@ export const GlobalStyles = () => {
                     text-decoration: none;
                 }
                 font-family: 'Text Me One', sans-serif;
+                font-display: swap;
                 ${emotionNormalize};
             `}
         />

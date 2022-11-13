@@ -39,6 +39,7 @@ export const SEO: React.FC<React.PropsWithChildren<SEOProps>> = ({
         <>
             <title>{seo.title}</title>
             <meta name="description" content={seo.description} />
+            <meta name="lang" content={seo.lang} />
             <meta name="image" content={seo.image} />
             <meta name="keywords" content={seo.keywords} />
             <meta name="twitter:card" content="summary_large_image" />

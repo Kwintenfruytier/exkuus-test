@@ -9,6 +9,7 @@ export const Paragraph = styled.h1<{
     textAlign?: string;
 }>`
     font-family: 'Cario';
+    font-display: swap;
     font-weight: ${props => props.weight || '700'};
     font-size: ${props => props.fontSize || props.theme.fontSizes.h2};
     line-height: ${props => props.lineHeight || '24px'};
@@ -57,6 +58,7 @@ export const Header = styled.p<{
     mobileFontSize?: string;
 }>`
     font-family: Text Me One;
+    font-display: swap;
     padding-bottom: ${props => props.padding_bottom || '0px'};
     ${props => props.maxWidth && `max-width: ${props.maxWidth}`};
     font-weight: ${props => props.weight || '700'};
@@ -162,6 +164,7 @@ export const H3 = styled.h3`
     font-style: normal;
     font-weight: 700;
     font-size: ${({ theme }) => theme.fontSizes.h3};
+    font-display: swap;
     line-height: 54px;
     letter-spacing: 0.25em;
 `;
@@ -242,6 +245,7 @@ export const Diensten_title = styled.h3`
     font-weight: '700';
     font-size: 30px;
     font-family: Text Me One;
+    font-display: swap;
     letter-spacing: 2.25px;
     ${mq['sm']} {
         font-size: 22px;
@@ -376,6 +380,7 @@ export const Diensten_section = styled.div`
 export const Diensten_descriptionColor = styled.div`
     margin-bottom: 50px;
     font-family: Text Me One;
+    font-display: swap;
     margin-top: 50px;
     font-weight: 700;
     color: #1f4668;
@@ -401,6 +406,7 @@ export const Dienten_Button = styled.div`
     font-size: 20px;
     font-family: 'Cairo', sans-serif;
     font-weight: 700;
+    font-display: swap;
     padding-top: 16px;
     padding-bottom: 16px;
     border: none;
@@ -458,6 +464,7 @@ export const Banner_img_wrapper = styled.div`
 export const Diensten_Hero_title = styled.div`
     font-size: 50px;
     font-family: Cairo;
+    font-display: swap;
     line-height: 40.5px;
     font-weight: 700;
     display: flex;
@@ -547,6 +554,7 @@ export const KmoHeading = styled.h1`
     letter-spacing: 2.25px;
     color: #000000;
     font-family: Text Me One;
+    font-display: swap;
 `;
 export const KmoSubheading = styled.h1`
     margin: 20px 0;
@@ -555,6 +563,7 @@ export const KmoSubheading = styled.h1`
     letter-spacing: 2.25px;
     color: #000000;
     font-family: Text Me One;
+    font-display: swap;
 `;
 export const KmoPortefeuilleWrapper = styled.div`
     padding: 40px 40px;

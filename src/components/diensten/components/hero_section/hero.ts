@@ -24,6 +24,7 @@ export const Hero_ = styled.div`
 `;
 export const Left_Section = styled.div`
     font-family: Text Me One;
+    font-display: swap;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +35,7 @@ export const Heading = styled.p`
     font-family: Text Me One;
     font-weight: 700;
     font-size: 42px;
+    font-display: swap;
     letter-spacing: 2.25px;
     color: #000000;
     text-align: left;
@@ -75,6 +77,7 @@ export const Hide = styled.div`
 export const Mobile_Heading = styled.div`
     display: none;
     font-family: Text Me One;
+    font-display: swap;
     ${mq['sm']} {
         display: block;
         margin-left: 32px;
@@ -90,6 +93,7 @@ export const Mobile_Heading = styled.div`
 `;
 export const Mobile_Sub_Heading = styled.div`
     font-family: Text Me One;
+    font-display: swap;
     display: none;
     ${mq['sm']} {
         display: block;

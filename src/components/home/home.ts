@@ -186,6 +186,7 @@ export const Heading = styled.p`
     font-family: Text Me One;
     font-weight: bold;
     font-size: 42px;
+    font-display: swap;
     letter-spacing: 2.25px;
     color: #000000;
     width: 400px;

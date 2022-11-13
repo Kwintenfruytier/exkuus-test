@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
             'Ook jij kan €10.000 per maand verdienen en financiële vrijheid ondervinden. Hoe? Door gepassioneerde ondernemers te helpen groeien.',
         keywords:
             'exkuus, Kjell, financiële vrijheid, online marketing, Nomi, is Kjell betrouwbaar?, exkuus.com, exkuus.be, excuus',
-        image: '/src/Images/exkuus_logo.png',
+        image: './src/Images/exkuus_logo.png',
         lang: 'nl',
     },
     plugins: [
