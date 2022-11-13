@@ -748,7 +748,7 @@ const overOns = () => {
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
-                    bg="#16a1fa"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -760,7 +760,7 @@ const overOns = () => {
                         width_mb="100%"
                         textAlign_mob="center"
                         tabletSize="12px"
-                        color="white"
+                        color="black"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -779,12 +779,12 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#16a1fa"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate color="white">oktober 2022 </Rotate>
+                    <Rotate color="black">oktober 2022 </Rotate>
                 </Line>
             </VerticalTags>
 

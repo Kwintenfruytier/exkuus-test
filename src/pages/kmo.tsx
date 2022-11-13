@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     Bold,
     BorderBlue,
@@ -75,3 +74,15 @@ const KmoPortefeuille = () => {
 };
 
 export default KmoPortefeuille;
+
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus KMO | Officiële partner van de Vlaamse Overheid"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, nieuwsbrief, waardevolle emails, Kjell YouTube, Kjell TikTok, Kjell Instagram, Kjell Insta, KMO, Kjell KMO, Vlaamse Overheid"
+        description="30% korting voor toekomstige ondernemers. Dan kan dankzij onze partnership met de Vlaamse Overheid: de KMO-portefeuille."
+    />
+);

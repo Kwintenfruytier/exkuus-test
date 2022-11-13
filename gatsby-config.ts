@@ -6,7 +6,12 @@ const config: GatsbyConfig = {
         title: 'Exkuus',
         author: 'Exkuus.com',
         siteUrl: `https://exkuus.com`,
-        description: 'Exkuus',
+        description:
+            'Ook jij kan €10.000 per maand verdienen en financiële vrijheid ondervinden. Hoe? Door gepassioneerde ondernemers te helpen groeien.',
+        keywords:
+            'exkuus, Kjell, financiële vrijheid, online marketing, Nomi, is Kjell betrouwbaar?, exkuus.com, exkuus.be, excuus',
+        image: '/src/Images/exkuus_logo.png',
+        lang: 'nl',
     },
     plugins: [
         `gatsby-transformer-sharp`,
@@ -20,7 +25,7 @@ const config: GatsbyConfig = {
         {
             resolve: `gatsby-plugin-scroll-reveal`,
             options: {
-                threshold: 0.7, // Percentage of an element's area that needs to be visible to launch animation
+                threshold: 0.1, // Percentage of an element's area that needs to be visible to launch animation
                 once: true, // Defines if animation needs to be launched once
             },
         },

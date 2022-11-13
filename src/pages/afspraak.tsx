@@ -50,3 +50,17 @@ const Booking = () => {
 };
 
 export default Booking;
+
+{
+    /* SEO SECTION*/
+}
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus AFSPRAAK | Verander vandaag nog jouw leven!"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, Afspraak, Afspraak Kjell, Kjell afspraak"
+        description="Ben jij klaar om financiële vrijheid te ervaren? Maak dan nu nog een afspraak!"
+    />
+);

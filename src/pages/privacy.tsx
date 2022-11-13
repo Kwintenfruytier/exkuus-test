@@ -458,3 +458,15 @@ const Privacy: Page = () => (
 Privacy.Layout = DefaultLayout;
 
 export default Privacy;
+
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus PRIVACY | Jouw privacy"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, nieuwsbrief, waardevolle emails, Kjell YouTube, Kjell TikTok, Kjell Instagram, Kjell Insta"
+        description="Alles over jouw privacy en jouw rechten. Lees zeker aandachtig :)"
+    />
+);

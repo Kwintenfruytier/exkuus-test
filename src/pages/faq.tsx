@@ -1,4 +1,3 @@
-import React from 'react';
 import Collapse from '@/faq/components/collapse';
 import { Heading } from '../components/diensten/components/hero_section/hero';
 import { Faq_main, Header, Heading_width } from 'styles/typography';
@@ -76,3 +75,15 @@ const Faq = () => {
 };
 
 export default Faq;
+
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus FAQ | De meest gestelde vragen op een rijtje"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, Wie is Kjell?, Wat doet Kjell, is Kjell betrouwbaar, is Exkuus een scam?"
+        description="Antwoorden op al jouw vragen! Wij hebben de meest gestelde vragen op een rijtje gezet."
+    />
+);

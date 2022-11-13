@@ -31,3 +31,15 @@ const Conditions: Page = () => (
 Conditions.Layout = DefaultLayout;
 
 export default Conditions;
+
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus ALGEMENE VOORWAARDEN | Inkomsten Disclaimer"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, nieuwsbrief, waardevolle emails, Kjell YouTube, Kjell TikTok, Kjell Instagram, Kjell Insta, disclaimer"
+        description="Wij geloven niet in 'get rich quick' of 'word snel rijk'.  Hard werken is de boodschap. Lees zeker onze algemene voorwaarden :)"
+    />
+);

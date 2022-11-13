@@ -1,25 +1,25 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-		"jsxImportSource": "@emotion/react",
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["components/*"]
-    }
-  },
-  "exclude": ["node_modules"],
-  "include": ["./**/*"]
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "@emotion/react",
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["components/*"]
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": ["./**/*"]
 }

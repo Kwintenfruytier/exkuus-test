@@ -242,3 +242,15 @@ const GDPR: Page = () => (
 GDPR.Layout = DefaultLayout;
 
 export default GDPR;
+
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus GDPR | Cookies en hoe wij ermee omgaan"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom, nieuwsbrief, waardevolle emails, Kjell YouTube, Kjell TikTok, Kjell Instagram, Kjell Insta, Cookies"
+        description="GDPR is belangrijk. Daarom informeren we jou graag over hoe wij met cookies omgaan en hoe jij je kan uitschrijven. Lees zeker aandachtig!"
+    />
+);

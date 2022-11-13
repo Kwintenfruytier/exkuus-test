@@ -158,7 +158,7 @@ const diensten = () => {
                     IK BEN KLAAR OM MIJN LEVEN TE VERANDEREN
                 </Dienten_Button>
             </Link>
-            <Diensten_paragraph fontsize="22px"></Diensten_paragraph>
+            <Diensten_paragraph></Diensten_paragraph>
             <Diensten_Hero_title
                 data-sal="fade"
                 data-sal-easing="ease-in"
@@ -233,3 +233,18 @@ const diensten = () => {
 };
 
 export default diensten;
+
+{
+    /* SEO SECTION*/
+}
+import React from 'react';
+import { HeadFC } from 'gatsby';
+import { SEO } from '../components/seo';
+
+export const Head: HeadFC = () => (
+    <SEO
+        title="Exkuus PROGRAMMA'S | Welke programma's bieden we aan?"
+        keywords="Anderzom, Financiële vrijheid, Exkuus, Kjell Exkuus, Kjell Anderzom"
+        description="Ontdek wat wij voor jou kunnen doen! Lees over onze programma's en contacteer ons om jouw leven te veranderen. Wat is jouwe exkuus?"
+    />
+);

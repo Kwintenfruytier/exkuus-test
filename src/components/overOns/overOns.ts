@@ -143,7 +143,7 @@ export const Line = styled.div<{
 export const Arrow = styled.div`
     height: 80px;
     width: 60px;
-    background: #16a1fa;
+    background: #ffdf2b;
     clip-path: polygon(100% 0, 0 0, 51% 62%);
     margin-top: -8px;
     ${mq['lg']} {
