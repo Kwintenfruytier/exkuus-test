@@ -24,8 +24,8 @@ export const GlobalStyles = () => {
     return (
         <Global
             styles={() => css`
-                @import url('https://fonts.googleapis.com/css2?family=Cairo,wght@1,800&display=swap');
-                @import url('https://fonts.googleapis.com/css2?family=Text+Me+One,wght@1,800&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
                 body {
                     font-family: 'Cairo', sans-serif;
                     font-display: 'swap';
@@ -54,6 +54,7 @@ export const GlobalStyles = () => {
                 }
                 .cookie-message {
                     font-weight: 400;
+                    font-display: swap;
                     width: 70%;
                     line-height: 20px !important;
                     margin: 10px auto;
