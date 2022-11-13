@@ -83,15 +83,6 @@ const config: GatsbyConfig = {
             options: {
                 fonts: [
                     {
-                        family: `Roboto`,
-                        variants: ['300', '500'],
-                        subsets: [`latin`],
-                    },
-                    {
-                        family: `Open Sans`,
-                        variants: [`400`, `700`],
-                    },
-                    {
                         family: `Text Me One`,
                         variants: [`400`, `700; 800`],
                     },
