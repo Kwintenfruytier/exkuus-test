@@ -6,6 +6,7 @@ type SEOProps = {
     description?: string;
     pathname?: string;
     keywords?: string;
+    lang?: string;
 };
 
 export const SEO: React.FC<React.PropsWithChildren<SEOProps>> = ({
@@ -13,18 +14,21 @@ export const SEO: React.FC<React.PropsWithChildren<SEOProps>> = ({
     description,
     pathname,
     keywords,
+    lang,
     children,
 }) => {
     const {
         title: defaultTitle,
         description: defaultDescription,
         keywords: defaultKeywords,
+        lang: defaultLang,
         image,
         siteUrl,
     } = useSiteMetadata();
 
     const seo = {
         title: title || defaultTitle,
+        lang: lang || defaultLang,
         description: description || defaultDescription,
         keywords: keywords || defaultKeywords,
         image: `${siteUrl}${image}`,

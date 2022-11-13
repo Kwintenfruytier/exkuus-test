@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
     },
     plugins: [
         `gatsby-transformer-sharp`,
+        `gatsby-plugin-preload-fonts`,
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
@@ -65,8 +66,10 @@ const config: GatsbyConfig = {
                         {
                             family: 'Roboto',
                             variants: ['300', '500'],
+                            fontDisplay: 'swap',
                         },
                     ],
+                    usePreload: true,
                 },
             },
         },
