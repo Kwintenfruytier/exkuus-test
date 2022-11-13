@@ -89,7 +89,7 @@ const HomePage = () => {
                     <Center>
                         <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                             <Button
-                                text="start vandaag"
+                                text="maak een afspraak en ontdek hoe"
                                 background-color="#FFDF2B"
                                 color="#000000"
                                 border="1px solid #000000"
