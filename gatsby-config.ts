@@ -19,7 +19,14 @@ const config: GatsbyConfig = {
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
         `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-robots-txt`,
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                host: 'https://exkuus.com',
+                sitemap: 'https://exkuus.com/sitemap/sitemap-index.xml',
+                policy: [{ userAgent: '*', allow: '/' }],
+            },
+        },
         `gatsby-plugin-emotion`,
         `gatsby-plugin-svgr`,
         {

@@ -25,7 +25,7 @@ import Button from '../common/commonButton';
 import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import gif from 'Images/vault.gif';
+import heroImage from '../../Images/home_hero.webm';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -61,11 +61,16 @@ const HomePage = () => {
                 data-sal-delay="1500ms"
             >
                 <Video>
-                    <img
+                    <video
+                        title="openen van een kluis om zo financiële vrijheid te vinden"
+                        loop
+                        autoPlay
+                        src={heroImage}
                         width={'100%'}
-                        src={gif}
-                        alt="mensen open de kluis naar succes en financiële vrijheid"
-                    />
+                        disablePictureInPicture
+                    >
+                        <track default kind="captions" srcLang="nl"></track>
+                    </video>
                 </Video>
                 <Right_Section
                     data-sal="fade"
@@ -192,9 +197,8 @@ const HomePage = () => {
                                 je elke dag vol energie aan de dag kunt beginnen?
                             </P>
                         </li>
-                        <br />
-                        <br />
-                        <P width_mb="98%">
+
+                        <P width_mb="98%" padding_top="1rem" padding_bottom="1rem">
                             <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                                 <TextBlue mobileFontSize="20px" fontSize="22px">
                                     Maak een vrijblijvende afspraak
@@ -202,8 +206,6 @@ const HomePage = () => {
                             </Link>{' '}
                             en krijg jouw gratis eerste training!
                         </P>
-
-                        <br />
                     </ul>
                 </MidWrapper>
 
