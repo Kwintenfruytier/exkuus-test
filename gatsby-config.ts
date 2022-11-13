@@ -15,7 +15,6 @@ const config: GatsbyConfig = {
     },
     plugins: [
         `gatsby-transformer-sharp`,
-        `gatsby-plugin-preload-fonts`,
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
