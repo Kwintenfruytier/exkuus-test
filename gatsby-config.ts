@@ -73,6 +73,12 @@ const config: GatsbyConfig = {
             },
         },
         {
+            resolve: 'gatsby-plugin-preconnect',
+            options: {
+                domains: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+            },
+        },
+        {
             resolve: 'gatsby-plugin-html-attributes',
             options: {
                 lang: 'nl',

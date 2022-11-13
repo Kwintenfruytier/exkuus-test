@@ -54,12 +54,7 @@ const HomePage = () => {
         <HomeWrapper>
             <Dialog open={state.isDialogOpen} closeModal={closeModal} />
 
-            <VideoWrapper
-                data-sal="fade"
-                data-sal-easing="ease-in"
-                data-sal-duration="3000ms"
-                data-sal-delay="1500ms"
-            >
+            <VideoWrapper>
                 <Video>
                     <video
                         title="openen van een kluis om zo financiële vrijheid te vinden"
@@ -72,12 +67,7 @@ const HomePage = () => {
                         <track default kind="captions" srcLang="nl"></track>
                     </video>
                 </Video>
-                <Right_Section
-                    data-sal="fade"
-                    data-sal-easing="ease-in"
-                    data-sal-duration="3000ms"
-                    data-sal-delay="1500ms"
-                >
+                <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="2000ms">
                     <Header>
                         Financiële{' '}
                         <TextBlue fontWeight="700" mobileFontSize="26px" fontSize="44px">

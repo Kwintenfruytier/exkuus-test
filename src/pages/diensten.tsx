@@ -20,7 +20,7 @@ import {
     TextBlue,
 } from 'styles/typography';
 import Hero from '../components/diensten/components/hero_section';
-import { Link } from 'gatsby';
+import { Link, HeadFC } from 'gatsby';
 import { diensten_data } from 'constant/diensten';
 import { Paragraph } from '@/diensten/common/Iconfield/Iconfiled';
 
@@ -198,14 +198,12 @@ const diensten = () => {
                 <IconFiled_wrapper>
                     {diensten_data.map((items, index) => (
                         <ul key={index}>
-                            <li>
-                                <Paragraph
-                                    data-sal="fade"
-                                    data-sal-easing="ease-in"
-                                    data-sal-duration="3000ms"
-                                >
-                                    {items.paragraph}
-                                </Paragraph>
+                            <li
+                                data-sal="fade"
+                                data-sal-easing="ease-in"
+                                data-sal-duration="3000ms"
+                            >
+                                <Paragraph>{items.paragraph}</Paragraph>
                             </li>
                         </ul>
                     ))}
@@ -238,7 +236,6 @@ export default diensten;
     /* SEO SECTION*/
 }
 import React from 'react';
-import { HeadFC } from 'gatsby';
 import { SEO } from '../components/seo';
 
 export const Head: HeadFC = () => (
