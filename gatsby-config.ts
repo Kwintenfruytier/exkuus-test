@@ -78,32 +78,7 @@ const config: GatsbyConfig = {
                 domains: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
             },
         },
-        {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
-            options: {
-                fonts: [
-                    {
-                        family: `Text Me One`,
-                        variants: [`400`, `700; 800`],
-                    },
-                    {
-                        family: `Cairo`,
-                        variants: [
-                            `100`,
-                            `200`,
-                            `300`,
-                            `400`,
-                            `500`,
-                            `600`,
-                            `700`,
-                            `800`,
-                            `900`,
-                            `1000`,
-                        ],
-                    },
-                ],
-            },
-        },
+
         {
             resolve: 'gatsby-plugin-html-attributes',
             options: {
