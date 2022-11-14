@@ -57,7 +57,7 @@ export const Header = styled.p<{
     fontSize?: string;
     mobileFontSize?: string;
 }>`
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     padding-bottom: ${props => props.padding_bottom || '0px'};
     ${props => props.maxWidth && `max-width: ${props.maxWidth}`};
@@ -244,7 +244,7 @@ export const Banner_img = styled.div<{
 export const Diensten_title = styled.h3`
     font-weight: '700';
     font-size: 30px;
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     letter-spacing: 2.25px;
     ${mq['sm']} {
@@ -379,7 +379,7 @@ export const Diensten_section = styled.div`
 
 export const Diensten_descriptionColor = styled.div`
     margin-bottom: 50px;
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     margin-top: 50px;
     font-weight: 700;
@@ -463,7 +463,7 @@ export const Banner_img_wrapper = styled.div`
 `;
 export const Diensten_Hero_title = styled.div`
     font-size: 50px;
-    font-family: Cairo;
+    font-family: Cairo, sans-serif;
     font-display: swap;
     line-height: 40.5px;
     font-weight: 700;
@@ -553,7 +553,7 @@ export const KmoHeading = styled.h1`
     line-height: 47px;
     letter-spacing: 2.25px;
     color: #000000;
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
 `;
 export const KmoSubheading = styled.h1`
@@ -562,7 +562,7 @@ export const KmoSubheading = styled.h1`
     font-size: 26px;
     letter-spacing: 2.25px;
     color: #000000;
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
 `;
 export const KmoPortefeuilleWrapper = styled.div`

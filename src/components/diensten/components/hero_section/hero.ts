@@ -23,7 +23,7 @@ export const Hero_ = styled.div`
     }
 `;
 export const Left_Section = styled.div`
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     width: 80%;
     margin-left: auto;
@@ -32,7 +32,7 @@ export const Left_Section = styled.div`
     flex-direction: column;
 `;
 export const Heading = styled.p`
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-weight: 700;
     font-size: 42px;
     font-display: swap;
@@ -76,7 +76,7 @@ export const Hide = styled.div`
 `;
 export const Mobile_Heading = styled.div`
     display: none;
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     ${mq['sm']} {
         display: block;
@@ -92,7 +92,7 @@ export const Mobile_Heading = styled.div`
     }
 `;
 export const Mobile_Sub_Heading = styled.div`
-    font-family: Text Me One;
+    font-family: Text Me One, sans-serif;
     font-display: swap;
     display: none;
     ${mq['sm']} {
