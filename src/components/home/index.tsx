@@ -26,7 +26,8 @@ import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import heroImage from '../../Images/homeHeroImage.mp4';
-import heroPlaceholder from '../../Images/homeHeroPlaceholder.png';
+import heroGif from '../../Images/vault.gif';
+import heroPlaceholder from '../../Images/homeHeroPlaceholder.webp';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -57,18 +58,22 @@ const HomePage = () => {
 
             <VideoWrapper>
                 <Video>
-                    <video
+                    {/* <video
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
-                        src={heroImage}
+                        src={heroGif}
                         width={'100%'}
                         disablePictureInPicture
                         playsInline
                         poster={heroPlaceholder}
                     >
                         <track default kind="captions" srcLang="nl"></track>
-                    </video>
+    </video>*/}
+                    <img
+                        src={heroGif}
+                        alt="openen van een kluis om zo financiële vrijheid te vinden"
+                    />
                 </Video>
                 <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="2000ms">
                     <Header>
@@ -182,7 +187,7 @@ const HomePage = () => {
                         </li>
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
-                                ... nooit nog financiële zorgen hoeft te maken?
+                                ... je nooit nog financiële zorgen hoeft te maken?
                             </P>
                         </li>
                         <li>

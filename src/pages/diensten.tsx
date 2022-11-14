@@ -211,7 +211,7 @@ const diensten = () => {
             </Diensten_paragraph>
 
             <Button_wrapper>
-                <Link to="/afspraak">
+                <Link to="/contact">
                     <Button
                         text="IK WIL MIJN BEDRIJF OPSCHALEN"
                         background-color="#1F4668"

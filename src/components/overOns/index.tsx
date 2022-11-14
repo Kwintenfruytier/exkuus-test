@@ -210,7 +210,7 @@ const overOns = () => {
 
             <VerticalTags>
                 <Tag
-                    bg="#FFDF2B"
+                    bg="#1270B0"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -222,6 +222,7 @@ const overOns = () => {
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
+                        color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -238,20 +239,20 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#FFDF2B"
+                    bg="#1270B0"
+                    color="white"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate>augustus 2020</Rotate>
+                    <Rotate color="white">augustus 2020</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
-                    bg="#1F4668"
-                    color="white"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -261,7 +262,6 @@ const overOns = () => {
                         mobileSize="10px"
                         tabletSize="10px"
                         textAlign="center"
-                        color="white"
                         width_mb="100%"
                         textAlign_mob="center"
                         data-sal="fade"
@@ -280,26 +280,27 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1F4668"
+                    bg="#FFDF2B"
                     margin="-2px"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate color="white">september 2020</Rotate>
+                    <Rotate>september 2020</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
             <VerticalTags>
                 <Tag
-                    bg="#FFDF2B"
+                    bg="#1F4668"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
                     <P
                         size="16px"
+                        color="white"
                         mobileSize="10px"
                         tabletSize="10px"
                         textAlign="center"
@@ -321,19 +322,19 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#FFDF2B"
+                    bg="#1F4668"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate>december 2020</Rotate>
+                    <Rotate color="white">december 2020</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
-                    bg="#1F4668"
+                    bg="#1270B0"
                     color="white"
                     data-sal="fade"
                     data-sal-easing="ease-in"
@@ -362,7 +363,7 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1F4668"
+                    bg="#1270B0"
                     margin="-2px"
                     data-sal="fade"
                     data-sal-easing="ease-in"
@@ -375,7 +376,7 @@ const overOns = () => {
 
             <VerticalTags>
                 <Tag
-                    bg="#1270B0"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -387,7 +388,6 @@ const overOns = () => {
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -404,12 +404,12 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1270B0"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate color="white">augustus 2021</Rotate>
+                    <Rotate>augustus 2021</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms" />
@@ -500,8 +500,7 @@ const overOns = () => {
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
-                    bg="#1F4668"
-                    color="white"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -511,7 +510,6 @@ const overOns = () => {
                         mobileSize="10px"
                         tabletSize="10px"
                         textAlign="center"
-                        color="white"
                         width_mb="100%"
                         textAlign_mob="center"
                         data-sal="fade"
@@ -530,20 +528,20 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1F4668"
+                    bg="#FFDF2B"
                     margin="-2px"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate color="white">november 2021</Rotate>
+                    <Rotate>november 2021</Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
 
             <VerticalTags>
                 <Tag
-                    bg="#1270B0"
+                    bg="#1F4668"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -572,7 +570,7 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1270B0"
+                    bg="#1F4668"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -584,7 +582,7 @@ const overOns = () => {
 
             <VerticalTags direction="row-reverse" justify="end" mb_margin="70px">
                 <Tag
-                    bg="#1F4668"
+                    bg="#1270B0"
                     color="white"
                     data-sal="fade"
                     data-sal-easing="ease-in"
@@ -614,7 +612,7 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1F4668"
+                    bg="#1270B0"
                     margin="-2px"
                     data-sal="fade"
                     data-sal-easing="ease-in"
@@ -627,7 +625,7 @@ const overOns = () => {
 
             <VerticalTags>
                 <Tag
-                    bg="#1270B0"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
@@ -639,7 +637,6 @@ const overOns = () => {
                         textAlign="center"
                         width_mb="100%"
                         textAlign_mob="center"
-                        color="white"
                         data-sal="fade"
                         data-sal-easing="ease-in"
                         data-sal-duration="3000ms"
@@ -656,12 +653,12 @@ const overOns = () => {
                     ></Clip>
                 </Connector>
                 <Line
-                    bg="#1270B0"
+                    bg="#FFDF2B"
                     data-sal="fade"
                     data-sal-easing="ease-in"
                     data-sal-duration="3000ms"
                 >
-                    <Rotate color="white">maart 2022 </Rotate>
+                    <Rotate>maart 2022 </Rotate>
                 </Line>
             </VerticalTags>
             <Connector2 />
