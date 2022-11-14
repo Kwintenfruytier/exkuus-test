@@ -8,7 +8,7 @@ const Conditions: Page = () => (
             <Privacy_heading data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 Inkomsten Disclaimer
             </Privacy_heading>
-            <p>Laatst Geüpdate op 18 augustus 2020</p>
+            <p>Laatst Geüpdate op 14 november 2022</p>
             <Pinkomsten_para data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                 INKOMSTEN DISCLAIMER: WIJ GELOVEN NIET IN “WORD-SNEL-RIJK” PROGRAMMA’S. WIJ GELOVEN
                 IN HARD WERKEN, WAARDE TOEVOEGEN EN ANDEREN HELPEN. DIT IS DAN OOK WAARVOOR ONZE

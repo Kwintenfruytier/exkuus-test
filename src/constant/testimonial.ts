@@ -13,8 +13,8 @@ export const quotes = [
         color: '#FFFFFF',
     },
     {
-        name: '"Je voelt aan alles dat het Kjell & Nomi te doen is om mensen ook succesvol te maken en te helpen. Na een paar maanden kan ik dit nog altijd bevestigen. Je komt in een exclusieve familie terecht, iedereen kent iedereen. Iedereen steunt elkaar. Het bestaat niet dat er een completer programma bestaat."',
-        name2: '- Véronique D.S',
+        name: '"Zeer positief verrast van Anderzom. Zeer waardevolle info die op een simpele manier wordt meegedeeld. Keep up the good work💪"',
+        name2: '- Senne H.',
         bg: '#87D7FF',
         color: '#000000',
     },

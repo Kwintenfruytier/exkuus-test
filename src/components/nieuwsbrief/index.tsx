@@ -72,7 +72,7 @@ const Nieuwsbrief = () => {
                     required
                 />
                 <Button
-                    text="nu gratis deelnemen"
+                    text="bezorg mij die mails"
                     background-color="#FFDF2B"
                     color="#000000"
                     border="1px solid #000000"

@@ -78,6 +78,38 @@ const config: GatsbyConfig = {
                 domains: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
             },
         },
+        {
+            /* Include plugin */
+            resolve: 'gatsby-omni-font-loader',
+
+            /* Plugin options */
+            options: {
+                /* Font loading mode */
+                mode: 'async',
+
+                /* Enable font loading listener to handle FOUT */
+                enableListener: true,
+
+                /* Preconnect URL-s. This example is for Google Fonts */
+                preconnect: ['https://fonts.gstatic.com'],
+
+                /* Web fonts. File link should point to font CSS file. */
+                web: [
+                    {
+                        /* Exact name of the font as defied in @font-face CSS rule */
+                        name: 'Text Me One',
+                        /* URL to the font CSS file with @font-face definition */
+                        file: 'https://fonts.googleapis.com/css2?family=Text+Me+One',
+                    },
+                    {
+                        /* Exact name of the font as defied in @font-face CSS rule */
+                        name: 'Cairo',
+                        /* URL to the font CSS file with @font-face definition */
+                        file: 'https://fonts.googleapis.com/css2?family=Cairo',
+                    },
+                ],
+            },
+        },
 
         {
             resolve: 'gatsby-plugin-html-attributes',

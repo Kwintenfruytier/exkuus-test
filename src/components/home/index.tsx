@@ -26,6 +26,7 @@ import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import heroImage from '../../Images/homeHeroImage.mp4';
+import heroPlaceholder from '../../Images/homeHeroPlaceholder.png';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -63,6 +64,8 @@ const HomePage = () => {
                         src={heroImage}
                         width={'100%'}
                         disablePictureInPicture
+                        playsInline
+                        poster={heroPlaceholder}
                     >
                         <track default kind="captions" srcLang="nl"></track>
                     </video>
@@ -164,7 +167,7 @@ const HomePage = () => {
                         text-align="left"
                         padding_bottom="50px"
                     >
-                        Wat als...
+                        Wat als je ...
                     </Header>
                     <ul
                         className="homePoints"
@@ -174,17 +177,17 @@ const HomePage = () => {
                     >
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
-                                je kan werken van overal ter wereld?
+                                ... kan werken van overal ter wereld?
                             </P>
                         </li>
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
-                                je nooit nog financiële zorgen hoeft te maken?
+                                ... nooit nog financiële zorgen hoeft te maken?
                             </P>
                         </li>
                         <li>
                             <P padding_bottom="8px" width_mb="98%">
-                                je elke dag vol energie aan de dag kunt beginnen?
+                                ... elke dag vol energie aan de dag kunt beginnen?
                             </P>
                         </li>
 
@@ -294,7 +297,7 @@ const HomePage = () => {
                         required
                     />
                     <Button
-                        text="nu gratis deelnemen"
+                        text="bezorg mij die mails"
                         background-color=" #ffdf2b"
                         color="#000000"
                         border="1px solid #000000"

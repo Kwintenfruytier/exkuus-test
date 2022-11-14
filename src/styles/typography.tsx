@@ -579,6 +579,4 @@ export const Listing = styled.ul`
 `;
 export const BorderBlue = styled.span`
     color: blue;
-    border-bottom: 2px solid;
-    border-color: blue;
 `;

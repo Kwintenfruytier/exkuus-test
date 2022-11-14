@@ -7,6 +7,7 @@ import {
     Listing,
     P,
 } from 'styles/typography';
+import { HeadFC, Link } from 'gatsby';
 
 const KmoPortefeuille = () => {
     return (
@@ -31,7 +32,7 @@ const KmoPortefeuille = () => {
             <Listing>
                 <li>
                     <P width_mb="100%">
-                        Bedrijven met minder dan 50 fulltime werknemers hebben recht op
+                        Bedrijven met minder dan 50 fulltime werknemers hebben recht op{' '}
                         <Bold>30% steun </Bold> tot maximaal € 7.500 per jaar.
                     </P>
                 </li>
@@ -52,7 +53,17 @@ const KmoPortefeuille = () => {
             <P width_mb="100%">
                 Uiteraard kom je alleen voor steun in aanmerking als kmo of bij het reeds beoefenen
                 van een zelfstandig beroep. Ben je nog niet geregistreerd? Doe dit dan via{' '}
-                <BorderBlue>www.kmoportefeuille.be.</BorderBlue>
+                <a
+                    href="https://www.vlaio.be/nl/subsidies-financiering/kmo-portefeuille"
+                    target="_blank"
+                    style={{
+                        textDecoration: 'none',
+                        textDecorationLine: 'none',
+                    }}
+                    rel="noreferrer"
+                >
+                    <BorderBlue>www.kmoportefeuille.be.</BorderBlue>
+                </a>
             </P>
             <br />
             <br />
@@ -63,12 +74,17 @@ const KmoPortefeuille = () => {
             </P>
             <br />
             <br />
-            <P width_mb="100%">
+            <a
+                href="https://www.vlaio.be/nl/subsidies-financiering/kmo-portefeuille/subsidies-aanvragen-en-ontvangen"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <h3 style={{ color: 'blue' }}>STAPPENPLAN VOOR HET AANVRAGEN VAN KMO-SUBSIDIE</h3>
+            </a>
+            <P width_mb="100%" padding_top="2rem">
                 Het registratienummer van EXKUUS BV is:<Bold> DV.O246084</Bold>. Via je persoonlijke
                 omgeving op de KMO-website kun je de status van jouw aanvraag opvolgen.
             </P>
-            <br />
-            <br />
         </KmoPortefeuilleWrapper>
     );
 };
@@ -76,7 +92,6 @@ const KmoPortefeuille = () => {
 export default KmoPortefeuille;
 
 import React from 'react';
-import { HeadFC } from 'gatsby';
 import { SEO } from '../components/seo';
 
 export const Head: HeadFC = () => (

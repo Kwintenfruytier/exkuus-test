@@ -105,7 +105,11 @@ const overOns = () => {
                             <li>Doe niet bij een ander wat je zelf niet wilt</li>
                             <li>
                                 <strong>Loyaliteit </strong> en <strong>eerlijkheid </strong>zijn
-                                cruciaal Educatie zo interactief en
+                                cruciaal
+                            </li>
+
+                            <li>
+                                Educatie zo interactief en
                                 <strong> fun</strong> mogelijk maken
                             </li>
                         </ul>

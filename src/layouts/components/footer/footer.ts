@@ -69,7 +69,7 @@ export const Text = styled.div`
     ${(props: any) => ({ ...props })};
     ${mq['sm']} {
         max-width: 500px;
-        width: 124px;
+        width: 100%;
         text-align: center;
         ${(props: any) => ({ ...props })};
     }
