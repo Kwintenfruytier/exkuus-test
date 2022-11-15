@@ -28,6 +28,7 @@ const config: GatsbyConfig = {
             },
         },
         `gatsby-plugin-emotion`,
+        `gatsby-plugin-styled-components`,
         `gatsby-plugin-svgr`,
         {
             resolve: `gatsby-plugin-scroll-reveal`,
@@ -58,21 +59,6 @@ const config: GatsbyConfig = {
             },
         },
         {
-            resolve: `gatsby-plugin-webfonts`,
-            options: {
-                fonts: {
-                    google: [
-                        {
-                            family: 'Roboto',
-                            variants: ['300', '500'],
-                            fontDisplay: 'swap',
-                        },
-                    ],
-                },
-                usePreload: true,
-            },
-        },
-        {
             resolve: 'gatsby-plugin-preconnect',
             options: {
                 domains: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
@@ -82,6 +68,7 @@ const config: GatsbyConfig = {
             resolve: `gatsby-omni-font-loader`,
             options: {
                 enableListener: true,
+                mode: 'async',
                 preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
                 web: [
                     {

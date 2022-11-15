@@ -15,11 +15,3 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props }
     const Layout = (element.type as any).Layout ?? DefaultLayout;
     return <Layout {...props}>{element}</Layout>;
 };
-
-export async function getServerData() {
-    return {
-        headers: {
-            'Cache-Control': 'public, max-age=10, s-maxage=60, stale-while-revalidate=240',
-        },
-    };
-}

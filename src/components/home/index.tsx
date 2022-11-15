@@ -32,6 +32,7 @@ import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
 import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const HomePage = () => {
     const [state, setState] = useState({
@@ -58,7 +59,7 @@ const HomePage = () => {
 
             <VideoWrapper>
                 <Video>
-                    <video
+                    {/* <video
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
@@ -74,6 +75,14 @@ const HomePage = () => {
                         src={heroGif}
                         alt="openen van een kluis om zo financiële vrijheid te vinden"
     /> */}
+                    <Link to="/afspraak">
+                        <StaticImage
+                            src="../../Images/heroHomeParty.jpg"
+                            alt="EXKUUS (in een nieuw jasje) viert feest en dat doen we samen - Claim daarom jouw Black Friday voordeel/profiteer van ons gloednieuwe website aanbod/KMO-Portefeuille partner” - “Actie geldig t/m 30 november 2022"
+                            placeholder="blurred"
+                        />
+                    </Link>
+                    <p style={{ fontSize: '.5rem' }}>actie geldig tot en met 30 november 2022</p>
                 </Video>
                 <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="2000ms">
                     <Header>
