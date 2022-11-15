@@ -57,7 +57,7 @@ const config: GatsbyConfig = {
                 icon: `assets/icons/favicon.png`,
             },
         },
-        /* {
+        {
             resolve: `gatsby-omni-font-loader`,
             options: {
                 enableListener: true,
@@ -73,8 +73,12 @@ const config: GatsbyConfig = {
                         file: 'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap',
                     },
                 ],
+                preload: [
+                    'https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap',
+                    'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap',
+                ],
             },
-        },*/
+        },
 
         {
             resolve: 'gatsby-plugin-html-attributes',

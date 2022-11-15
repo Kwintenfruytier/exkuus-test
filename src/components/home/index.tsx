@@ -84,7 +84,7 @@ const HomePage = () => {
                     </Link>
                     <p style={{ fontSize: '.5rem' }}>actie geldig tot en met 30 november 2022</p>
                 </Video>
-                <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="2000ms">
+                <Right_Section>
                     <Header>
                         Financiële{' '}
                         <TextBlue fontWeight="700" mobileFontSize="26px" fontSize="44px">
