@@ -58,7 +58,7 @@ const HomePage = () => {
 
             <VideoWrapper>
                 <Video>
-                    {/* <video
+                    <video
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
@@ -69,11 +69,11 @@ const HomePage = () => {
                         poster={heroPlaceholder}
                     >
                         <track default kind="captions" srcLang="nl"></track>
-    </video>*/}
-                    <img
+                    </video>
+                    {/* <img
                         src={heroGif}
                         alt="openen van een kluis om zo financiële vrijheid te vinden"
-                    />
+    /> */}
                 </Video>
                 <Right_Section data-sal="fade" data-sal-easing="ease-in" data-sal-duration="2000ms">
                     <Header>
