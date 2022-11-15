@@ -28,8 +28,7 @@ const config: GatsbyConfig = {
             },
         },
         `gatsby-plugin-emotion`,
-        `gatsby-plugin-styled-components`,
-        `gatsby-plugin-svgr`,
+        `atsby-plugin-svgr`,
         {
             resolve: `gatsby-plugin-scroll-reveal`,
             options: {
