@@ -29,6 +29,8 @@
     "dependencies": {
         "@emotion/react": "^11.10.5",
         "@emotion/styled": "^11.10.5",
+        "@fontsource/cairo": "^4.5.12",
+        "@fontsource/text-me-one": "^4.5.8",
         "@mdx-js/mdx": "^2.1.5",
         "@mdx-js/react": "^2.1.5",
         "@svgr/webpack": "^6.5.1",

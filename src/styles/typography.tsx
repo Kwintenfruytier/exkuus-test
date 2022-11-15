@@ -8,7 +8,7 @@ export const Paragraph = styled.h1<{
     lineHeight?: string;
     textAlign?: string;
 }>`
-    font-family: 'Cario';
+    font-family: 'Cairo, sans-serif';
     font-display: swap;
     font-weight: ${props => props.weight || '700'};
     font-size: ${props => props.fontSize || props.theme.fontSizes.h2};

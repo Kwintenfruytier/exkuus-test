@@ -58,7 +58,7 @@ export const Icon = styled.div`
     margin-right: 10px;
 `;
 export const Text = styled.div`
-    font-family: 'Cario';
+    font-family: 'Cairo, sans-serif';
     font-size: 16px;
     font-weight: 300;
     font-display: swap;

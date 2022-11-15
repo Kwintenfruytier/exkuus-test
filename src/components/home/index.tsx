@@ -62,7 +62,7 @@ const HomePage = () => {
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
-                        src={heroGif}
+                        src={heroImage}
                         width={'100%'}
                         disablePictureInPicture
                         playsInline

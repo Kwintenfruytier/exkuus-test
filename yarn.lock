@@ -1380,6 +1380,16 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/cairo@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/cairo/-/cairo-4.5.12.tgz#53073748a4b326a2f7a89a115b48a2ceb5fc6b71"
+  integrity sha512-DAt0cZFb5cNJjmVb5pdIEQgD/kDlFASr6AxO55BwnFFj3AN19oOmMHQyKDTA7Uz5HAs2xkJygh8FHxKTboBmmw==
+
+"@fontsource/text-me-one@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/text-me-one/-/text-me-one-4.5.8.tgz#3c109eebf82668757ed615221043593745349e0b"
+  integrity sha512-6C8h36Jk5Xnw6zxQzV/F+rt35T5Lqhc/4pBHFpW3eLJjG5pV3SXvWa6gjoXr2L/tt2gZ54yNO+/kb17sR4YBUA==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-1.9.0.tgz#9263de16d93463974d6fe0cd960eadca184a7d9f"

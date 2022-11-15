@@ -3,6 +3,8 @@ import { cloneElement } from 'react';
 import { LayoutProvider } from 'layouts/LayoutProvider';
 import { DefaultLayout } from 'layouts/DefaultLayout';
 import type { GatsbyBrowser } from 'gatsby';
+import '@fontsource/cairo';
+import '@fontsource/text-me-one';
 
 export const wrapRootElement: GatsbyBrowser['wrapRootElement'] = ({ element }) => {
     return <LayoutProvider>{element}</LayoutProvider>;
