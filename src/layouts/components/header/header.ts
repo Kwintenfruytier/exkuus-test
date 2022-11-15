@@ -33,6 +33,7 @@ export const Logo = styled.div`
     justify-content: center;
     align-items: center;
     height: 41px;
+    padding-right: 2rem;
 `;
 export const Calender = styled.div`
     background-color: #ffdf2b;
@@ -56,18 +57,18 @@ export const Calender = styled.div`
         padding-top: 5px;
         padding-bottom: 4px;
         border: none;
-        padding-right: 8px;
-        padding-left: 8px;
+        padding-right: 2em;
+        padding-left: 2em;
         border-radius: 12px;
         text-align: center;
     }
 `;
 export const MR_image = styled.div<{
-    marginright?: string;
-    margintop?: string;
+    marginRight?: string;
+    marginTop?: string;
 }>`
-    margin-right: ${p => (p.marginright ? p.marginright : '6px')};
-    ${p => p.margintop && `margin-top: ${p.margintop}`};
+    margin-right: ${p => (p.marginRight ? p.marginRight : '6px')};
+    ${p => p.marginTop && `margin-top: ${p.marginTop}`};
 `;
 
 export const MobileButton = styled.div`
@@ -178,8 +179,5 @@ export const NavLinks = styled.div`
     }
 `;
 export const AnchorLink = styled.a`
-    text-decoration: none;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    textdecoration: none;
 `;

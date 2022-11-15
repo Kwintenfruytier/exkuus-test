@@ -57,13 +57,7 @@ const config: GatsbyConfig = {
                 icon: `assets/icons/favicon.png`,
             },
         },
-        {
-            resolve: 'gatsby-plugin-preconnect',
-            options: {
-                domains: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
-            },
-        },
-        {
+        /* {
             resolve: `gatsby-omni-font-loader`,
             options: {
                 enableListener: true,
@@ -80,7 +74,7 @@ const config: GatsbyConfig = {
                     },
                 ],
             },
-        },
+        },*/
 
         {
             resolve: 'gatsby-plugin-html-attributes',

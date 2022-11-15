@@ -70,9 +70,14 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                         <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                             <Calender>
                                 <MR_image>
-                                    <Image filename="calender.png" alt="icon" width="15px" />
+                                    <Image
+                                        filename="calender.png"
+                                        alt="kalender icoon"
+                                        width="15px"
+                                        marginRight="1em"
+                                    />
                                 </MR_image>
-                                Verander nu jouw leven
+                                VERANDER NU JOUW LEVEN
                             </Calender>
                         </Link>
                         <MobileHeaderWrapper>
