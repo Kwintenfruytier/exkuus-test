@@ -35,6 +35,17 @@ export const Logo = styled.div`
     height: 41px;
     padding-right: 2rem;
 `;
+export const Promotion = styled.div`
+    font-family: Cairo, sans-serif,
+    font-weight: 800;
+    display: flex;
+    background-color: #ffdf2b;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+`;
 export const Calender = styled.div`
     background-color: #ffdf2b;
     cursor: pointer;

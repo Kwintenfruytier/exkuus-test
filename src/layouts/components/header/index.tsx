@@ -30,6 +30,7 @@ import {
     MobileToggler,
     NavLinks,
     AnchorLink,
+    Promotion,
 } from './header';
 import { Header_Link } from 'styles/typography';
 import styled from '@emotion/styled';
@@ -66,6 +67,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                             />
                         </Link>
                     </Logo>
+
                     <Wrapper>
                         <Link to="/afspraak" style={{ textDecoration: 'none', color: 'black' }}>
                             <Calender>
@@ -80,6 +82,7 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                                 VERANDER NU JOUW LEVEN
                             </Calender>
                         </Link>
+
                         <MobileHeaderWrapper>
                             <MobileToggler onClick={() => setOpenModal(!openModal)}>
                                 <Menu />
@@ -269,6 +272,12 @@ const Header = ({ setOpenModal, openModal }: Props) => {
                         </StyledLink>
                     ))}
                 </NavLinks>
+                <Link to="/afspraak">
+                    <Promotion>
+                        EXKUUS VIERT FEEST EN JIJ PROFITEERT MEE! ONTDEK ONZE GLOEDNIEUWE EXCLUSIEVE
+                        SERVICE BOVENOP ALLE ANDERE VOORDELEN.
+                    </Promotion>
+                </Link>
             </StickyHeader>
         </Suspense>
     );
