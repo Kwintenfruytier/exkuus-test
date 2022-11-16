@@ -93,17 +93,6 @@ const config: GatsbyConfig = {
             },
         },
         {
-            resolve: `gatsby-plugin-gtag`,
-            options: {
-                // your google analytics tracking id
-                trackingId: `GTM-T23N24V`,
-                // Puts tracking script in the head instead of the body
-                head: false,
-                // enable ip anonymization
-                anonymize: true,
-            },
-        },
-        {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
                 // You can add multiple tracking ids and a pageview event will be fired for all of them.
