@@ -57,6 +57,7 @@ const config: GatsbyConfig = {
                 icon: `assets/icons/favicon.png`,
             },
         },
+        `gatsby-plugin-offline`,
         {
             resolve: `gatsby-omni-font-loader`,
             options: {
