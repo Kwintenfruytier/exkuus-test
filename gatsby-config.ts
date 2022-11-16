@@ -97,9 +97,6 @@ const config: GatsbyConfig = {
             options: {
                 id: 'GTM-T23N24V',
 
-                // Include GTM in development.
-                //
-                // Defaults to false meaning GTM will only be loaded in production.
                 includeInDevelopment: false,
             },
         },
