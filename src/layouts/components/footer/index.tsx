@@ -119,7 +119,7 @@ const Footer = () => {
                         </Text>
                     </Link>
 
-                    <Link to="/sitemap/sitemap-index.xml">
+                    <Link to="/sitemap/sitemap-0.xml">
                         <Text data-sal="fade" data-sal-easing="ease-in" data-sal-duration="3000ms">
                             sitemap
                         </Text>

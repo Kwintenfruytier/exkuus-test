@@ -23,7 +23,7 @@ const config: GatsbyConfig = {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
                 host: 'https://exkuus.com',
-                sitemap: 'https://exkuus.com/sitemap/sitemap-index.xml',
+                sitemap: 'https://exkuus.com/sitemap/sitemap-0.xml',
                 policy: [{ userAgent: '*', allow: '/' }],
             },
         },
