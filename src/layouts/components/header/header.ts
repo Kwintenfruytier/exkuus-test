@@ -26,7 +26,7 @@ export const StickyHeader = styled.div`
     z-index: 10000;
     background: #f8faf6;
     ${mq['sm']} {
-        height: 15%;
+        height: 20%;
     }
 `;
 
