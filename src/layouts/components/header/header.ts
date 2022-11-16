@@ -21,10 +21,13 @@ export const StickyHeader = styled.div`
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 35%;
+    height: 25%;
     width: 100%;
     z-index: 10000;
     background: #f8faf6;
+    ${mq['sm']} {
+        height: 15%;
+    }
 `;
 
 export const Wrapper = styled.div`
