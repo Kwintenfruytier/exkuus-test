@@ -92,7 +92,8 @@ const config: GatsbyConfig = {
                 siteUrl: `https://exkuus.com`,
             },
         },
-        {
+
+        /* {
             resolve: 'gatsby-plugin-google-tagmanager',
             options: {
                 id: 'GTM-T23N24V',
@@ -100,6 +101,7 @@ const config: GatsbyConfig = {
                 includeInDevelopment: false,
             },
         },
+        */
         {
             resolve: `gatsby-plugin-mdx`,
             options: {

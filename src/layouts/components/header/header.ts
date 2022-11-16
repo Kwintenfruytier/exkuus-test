@@ -21,7 +21,7 @@ export const StickyHeader = styled.div`
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 25%;
+    height: 35%;
     width: 100%;
     z-index: 10000;
     background: #f8faf6;
