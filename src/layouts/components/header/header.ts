@@ -42,8 +42,10 @@ export const Promotion = styled.div`
     background-color: #ffdf2b;
     color: black;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 1rem;
+    letter-spacing: 1.25px;
+    
     
 `;
 export const Calender = styled.div`
