@@ -18,9 +18,13 @@ export const Container = styled.div`
 `;
 export const StickyHeader = styled.div`
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 25%;
     width: 100%;
+    z-index: 10000;
     background: #f8faf6;
-    z-index: 99999;
 `;
 
 export const Wrapper = styled.div`
@@ -38,13 +42,17 @@ export const Logo = styled.div`
 export const Promotion = styled.div`
     font-family: Cairo, sans-serif,
     font-weight: 800;
-    display: flex;
     background-color: #ffdf2b;
     color: black;
     justify-content: center;
     text-align: center;
-    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
     letter-spacing: 1.25px;
+    ${mq['sm']} {
+        font-size: 11px;
+        
+
     
     
 `;

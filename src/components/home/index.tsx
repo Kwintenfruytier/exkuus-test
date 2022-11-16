@@ -54,7 +54,7 @@ const HomePage = () => {
     };
 
     return (
-        <HomeWrapper>
+        <HomeWrapper style={{ marginTop: '10rem' }}>
             <Dialog open={state.isDialogOpen} closeModal={closeModal} />
 
             <VideoWrapper>
