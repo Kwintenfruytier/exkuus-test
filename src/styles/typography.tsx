@@ -407,12 +407,12 @@ export const Dienten_Button = styled.div`
     font-family: 'Cairo', sans-serif;
     font-weight: 700;
     font-display: swap;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border: none;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
     font-weight: 500;
     width: 500px;
     display: flex;
@@ -430,7 +430,7 @@ export const Dienten_Button = styled.div`
         border: none;
         padding-right: 8px;
         padding-left: 8px;
-        border-radius: 12px;
+        border-radius: 10px;
         text-align: center;
     }
 `;
