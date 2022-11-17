@@ -24,21 +24,6 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props }
         </Layout>
     );
 };
-
-<>
-    <Script
-        src={`https://www.googletagmanager.com/gtm.js?id=GTM-T23N24V`}
-        strategy={ScriptStrategy.offMainThread}
-        forward={[`dataLayer.push`]}
-    />
-    <Script id="gtm-init" strategy={ScriptStrategy.offMainThread}>
-        {`
-    window.dataLayer = window.dataLayer || []
-    window.dataLayer.push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' })
-  `}
-    </Script>
-</>;
-
 export const onRenderBody = ({ setHeadComponents }) => {
     setHeadComponents([
         <script
