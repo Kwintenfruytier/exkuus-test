@@ -6,6 +6,7 @@ import type { GatsbySSR } from 'gatsby';
 import { Script } from 'gatsby';
 import '@fontsource/cairo';
 import '@fontsource/text-me-one';
+import React = require('react');
 
 export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
     return <LayoutProvider>{element}</LayoutProvider>;
