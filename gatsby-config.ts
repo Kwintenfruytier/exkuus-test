@@ -14,6 +14,12 @@ const config: GatsbyConfig = {
         lang: 'nl',
     },
     plugins: [
+        {
+            resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
+            options: {
+                devMode: true,
+            },
+        },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,

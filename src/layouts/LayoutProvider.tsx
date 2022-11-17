@@ -3,7 +3,7 @@ import { ThemeProvider } from '@emotion/react';
 import { createContext, FC, useContext, useState } from 'react';
 
 type SiteState = {
-    language: 'en' | 'es';
+    language: 'nl';
 };
 
 type SiteContext = {
@@ -18,7 +18,7 @@ export const useSiteContext = (): SiteContext => useContext(siteContext);
 
 export const LayoutProvider: FC<{ children: React.ReactNode }> = ({ children }) => {
     const [siteState, setSiteState] = useState<SiteState>({
-        language: 'en',
+        language: 'nl',
     });
 
     return (
