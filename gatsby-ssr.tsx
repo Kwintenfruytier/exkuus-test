@@ -28,10 +28,10 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props }
 <>
     <Script
         src={`https://www.googletagmanager.com/gtm.js?id=GTM-T23N24V`}
-        strategy="off-main-thread"
+        strategy={ScriptStrategy.offMainThread}
         forward={[`dataLayer.push`]}
     />
-    <Script id="gtm-init" strategy="off-main-thread">
+    <Script id="gtm-init" strategy={ScriptStrategy.offMainThread}>
         {`
     window.dataLayer = window.dataLayer || []
     window.dataLayer.push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' })
