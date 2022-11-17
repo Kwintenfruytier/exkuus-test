@@ -21,12 +21,12 @@ export const StickyHeader = styled.div`
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 25%;
+    height: auto;
     width: 100%;
     z-index: 10000;
     background: #f8faf6;
     ${mq['sm']} {
-        height: 21%;
+        height: auto;
     }
 `;
 
@@ -85,6 +85,7 @@ export const Calender = styled.div`
         padding-left: 2em;
         border-radius: 12px;
         text-align: center;
+        word-spacing: 1px;
     }
 `;
 export const MR_image = styled.div<{

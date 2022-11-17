@@ -15,6 +15,7 @@ export const Button = styled.button<{
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 12px;
+    padding-right: 12px;
     font-weight: 500;
     font-display: swap;
     margin-top: 37px;

@@ -9,7 +9,7 @@ import {
     C,
 } from './bookingDetail';
 import Image from '@/common/image';
-import { HeaderTitle, ContentV2, P, TextYellow } from 'styles/typography';
+import { HeaderTitle, ContentV2 } from 'styles/typography';
 import { AdornmentWrapper, TopAdornment } from 'components/contact/contact';
 import {} from 'layouts/components/footer';
 import TextFieldComponent from '../common/textField';

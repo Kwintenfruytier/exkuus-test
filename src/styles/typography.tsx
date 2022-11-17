@@ -402,18 +402,19 @@ export const Diensten_descriptionColor = styled.div`
 `;
 export const Dienten_Button = styled.div`
     background-color: #ffdf2b;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
     font-size: 20px;
     font-family: 'Cairo', sans-serif;
-    font-weight: 700;
-    font-display: swap;
     padding-top: 18px;
     padding-bottom: 18px;
-    border: none;
-    padding-right: 12px;
     padding-left: 12px;
-    border-radius: 10px;
+    padding-right: 12px;
     font-weight: 500;
+    font-display: swap;
+    margin-top: 37px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -422,7 +423,7 @@ export const Dienten_Button = styled.div`
     margin: 0 auto;
     ${mq['sm']} {
         font-size: 13px;
-        width: 285px;
+        width: 271.9px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 5px;
@@ -434,6 +435,7 @@ export const Dienten_Button = styled.div`
         text-align: center;
     }
 `;
+
 export const Banner_img_wrapper = styled.div`
     margin-top: 40px;
     width: 80%;
