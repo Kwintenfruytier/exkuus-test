@@ -59,7 +59,7 @@ const HomePage = () => {
 
             <VideoWrapper>
                 <Video>
-                    {/* <video
+                    <video
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
@@ -67,22 +67,13 @@ const HomePage = () => {
                         width={'100%'}
                         disablePictureInPicture
                         playsInline
-                        poster={heroPlaceholder}
                     >
                         <track default kind="captions" srcLang="nl"></track>
-    </video> */}
-                    <img
+                    </video>
+                    {/*<img
                         src={heroGif}
                         alt="openen van een kluis om zo financiële vrijheid te vinden"
-                    />
-                    {/* <Link to="/afspraak">
-                        <StaticImage
-                            src="../../Images/heroHomeParty.jpg"
-                            alt="EXKUUS (in een nieuw jasje) viert feest en dat doen we samen - Claim daarom jouw Black Friday voordeel/profiteer van ons gloednieuwe website aanbod/KMO-Portefeuille partner” - “Actie geldig t/m 30 november 2022"
-                            placeholder="blurred"
-                        />
-                    </Link>
-<p style={{ fontSize: '.5rem' }}>actie geldig tot en met 30 november 2022</p>*/}
+                    /> */}
                 </Video>
                 <Right_Section>
                     <Header>
