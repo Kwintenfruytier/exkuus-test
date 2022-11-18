@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { cloneElement, React } from 'react';
+import { cloneElement } from 'react';
 import { LayoutProvider } from 'layouts/LayoutProvider';
 import { DefaultLayout } from 'layouts/DefaultLayout';
 import type { GatsbySSR } from 'gatsby';
-import { Script, ScriptStrategy } from 'gatsby';
+import { Script } from 'gatsby';
 import '@fontsource/cairo';
 import '@fontsource/text-me-one';
 

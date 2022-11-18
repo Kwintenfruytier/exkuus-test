@@ -7,7 +7,7 @@ import { Script } from 'gatsby';
 import '@fontsource/cairo';
 import '@fontsource/text-me-one';
 
-export const wrapRootElement: GatsbyBrowser['wrapw'] = ({ element }) => {
+export const wrapRootElement: GatsbyBrowser['wrapRootElement'] = ({ element }) => {
     return <LayoutProvider>{element}</LayoutProvider>;
 };
 
