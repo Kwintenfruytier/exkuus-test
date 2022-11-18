@@ -13,10 +13,6 @@ const config: GatsbyConfig = {
         image: 'exkuus_logo.png',
         lang: 'nl',
     },
-    partytownProxiedURLs: [
-        `https://www.googletagmanager.com/gtm.js?id=GTM-T23N24V`,
-        `https://www.google-analytics.com/analytics.js`,
-    ],
     plugins: [
         {
             resolve: 'gatsby-plugin-webpack-bundle-analyser-v2',
