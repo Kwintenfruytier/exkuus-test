@@ -68,10 +68,14 @@ const config: GatsbyConfig = {
             options: {
                 enableListener: true,
                 mode: 'async',
-                preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+                preconnect: [
+                    `https://fonts.googleapis.com`,
+                    `https://fonts.gstatic.com`,
+                    'cdnjs.cloudflare.com',
+                ],
                 web: [
                     {
-                        name: `Text Me One`,
+                        name: `Text+Me+One`,
                         file: 'https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap',
                     },
                     {
@@ -79,7 +83,7 @@ const config: GatsbyConfig = {
                         file: 'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap',
                     },
                     {
-                        name: 'Material Icon',
+                        name: 'Material+Icon',
                         file: 'https://fonts.googleapis.com/icon?family=Material+Icons',
                     },
                 ],

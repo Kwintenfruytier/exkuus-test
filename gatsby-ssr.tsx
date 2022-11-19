@@ -3,7 +3,7 @@ import { cloneElement } from 'react';
 import { LayoutProvider } from 'layouts/LayoutProvider';
 import { DefaultLayout } from 'layouts/DefaultLayout';
 import type { GatsbySSR } from 'gatsby';
-import { Script } from 'gatsby';
+import { Script, ScriptStrategy } from 'gatsby';
 import '@fontsource/cairo';
 import '@fontsource/text-me-one';
 
@@ -19,9 +19,18 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props }
     return (
         <Layout {...props}>
             {element}
-            <Script src="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" />
-            <Script src="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap" />
-            <Script src="https://fonts.googleapis.com/icon?family=Material+Icons" />
+            <Script
+                src="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap"
+                strategy={ScriptStrategy.postHydrate}
+            />
+            <Script
+                src="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap"
+                strategy={ScriptStrategy.postHydrate}
+            />
+            <Script
+                src="https://fonts.googleapis.com/icon?family=Material+Icons"
+                strategy={ScriptStrategy.postHydrate}
+            />
         </Layout>
     );
 };
