@@ -75,6 +75,7 @@ const HomePage = () => {
                     {/*<img
                         src={heroGif}
                         alt="openen van een kluis om zo financiële vrijheid te vinden"
+                        
                     /> */}
                 </Video>
                 <Right_Section>
@@ -113,9 +114,7 @@ const HomePage = () => {
                         alt="groepsfoto Exkuus community"
                         width="100%"
                         height="100%"
-                        data-sal="fade"
-                        data-sal-easing="ease-in"
-                        data-sal-duration="3000ms"
+                        loading="eager"
                     />
                 </Home_Image>
             </Home>

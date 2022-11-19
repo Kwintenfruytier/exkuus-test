@@ -20,11 +20,10 @@ const config: GatsbyConfig = {
                 devMode: true,
             },
         },
-        `gatsby-transformer-sharp`,
+        `gatsby-plugin-preact`,
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
-        `gatsby-plugin-react-helmet`,
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
@@ -49,6 +48,13 @@ const config: GatsbyConfig = {
                     placeholder: `blurred`,
                     quality: 35,
                 },
+            },
+        },
+        {
+            resolve: `gatsby-transformer-sharp`,
+            options: {
+                // The option defaults to true
+                checkSupportedExtensions: false,
             },
         },
         {
