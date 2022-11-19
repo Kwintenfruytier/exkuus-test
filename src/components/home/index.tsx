@@ -25,15 +25,14 @@ import Button from '../common/commonButton';
 import { ReactComponent as Back } from '../../Images/svg/arrow_forward.svg';
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import heroImage from '../../Images/homeHeroImage.mp4';
+import heroMP4 from '../../Images/homeHeroImage.mp4';
+import heroWebm from '../../Images/home_hero.webm';
 import heroGif from '../../Images/vault.gif';
-import heroPlaceholder from '../../Images/homeHeroPlaceholder.webp';
+import heroPlaceholder from '../../Images/homeHeroPlaceholder.png';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
 import { handleSubmit } from 'utils/nieuwsbrief-active-campaign';
-import { StaticImage } from 'gatsby-plugin-image';
-
 const HomePage = () => {
     const [state, setState] = useState({
         isDialogOpen: false,
@@ -63,11 +62,14 @@ const HomePage = () => {
                         title="openen van een kluis om zo financiële vrijheid te vinden"
                         loop
                         autoPlay
-                        src={heroImage}
                         width={'100%'}
                         disablePictureInPicture
                         playsInline
+                        poster={heroPlaceholder}
                     >
+                        <source src={heroMP4} type="video/mp4" />
+                        <source src={heroWebm} type="video/webm" />
+                        <source src={heroGif} type="video/gif" />
                         <track default kind="captions" srcLang="nl"></track>
                     </video>
                     {/*<img
