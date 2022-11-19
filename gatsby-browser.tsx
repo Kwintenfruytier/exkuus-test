@@ -21,6 +21,7 @@ export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({ element, pro
             {element}
             <Script src="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" />
             <Script src="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap" />
+            <Script src="https://fonts.googleapis.com/icon?family=Material+Icons" />
         </Layout>
     );
 };

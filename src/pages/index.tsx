@@ -3,17 +3,6 @@ import Home from 'components/home';
 
 const HomePage: Page = () => (
     <main>
-        <Script
-            src={`https://www.googletagmanager.com/gtm.js?id=GTM-T23N24V`}
-            strategy="off-main-thread"
-            forward={[`dataLayer.push`]}
-        />
-        <Script id="gtm-init" strategy="off-main-thread">
-            {`
-    window.dataLayer = window.dataLayer || []
-    window.dataLayer.push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' })
-  `}
-        </Script>
         <Home />
     </main>
 );
@@ -26,7 +15,7 @@ export default HomePage;
     /* SEO SECTION*/
 }
 import React from 'react';
-import { HeadFC, Script } from 'gatsby';
+import { HeadFC } from 'gatsby';
 import { SEO } from '../components/seo';
 
 export const Head: HeadFC = () => (

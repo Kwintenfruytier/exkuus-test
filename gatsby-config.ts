@@ -78,10 +78,10 @@ const config: GatsbyConfig = {
                         name: `Cairo`,
                         file: 'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap',
                     },
-                ],
-                preload: [
-                    'https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap',
-                    'https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap',
+                    {
+                        name: 'Material Icon',
+                        file: 'https://fonts.googleapis.com/icon?family=Material+Icons',
+                    },
                 ],
             },
         },
