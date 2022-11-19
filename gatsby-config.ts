@@ -29,6 +29,7 @@ const config: GatsbyConfig = {
         },
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
+        `gatsby-plugin-react-helmet`,
         `gatsby-plugin-image`,
         {
             resolve: 'gatsby-plugin-robots-txt',
