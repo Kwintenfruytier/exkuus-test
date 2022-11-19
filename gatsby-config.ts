@@ -20,7 +20,13 @@ const config: GatsbyConfig = {
                 devMode: true,
             },
         },
-        `gatsby-plugin-preact`,
+        {
+            resolve: 'gatsby-plugin-vercel',
+            options: {
+                // (optional) Prints metrics in the console when true
+                debug: false,
+            },
+        },
         `gatsby-plugin-sitemap`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-image`,
@@ -77,7 +83,7 @@ const config: GatsbyConfig = {
                 preconnect: [
                     `https://fonts.googleapis.com`,
                     `https://fonts.gstatic.com`,
-                    'cdnjs.cloudflare.com',
+                    'https://cdnjs.cloudflare.com',
                 ],
                 web: [
                     {
