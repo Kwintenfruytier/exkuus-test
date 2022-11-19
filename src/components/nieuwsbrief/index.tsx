@@ -46,7 +46,7 @@ const Nieuwsbrief = () => {
                 week <TextBlue>1 nieuwe YouTube video, 1 ervaring en 1 succesverhaal</TextBlue>.
             </Desc>
             <Desc>
-                100% waarde -<TextYellow>100% gratis</TextYellow>
+                100% waarde - <TextYellow> 100% gratis</TextYellow>
             </Desc>
             <FormWrapper onSubmit={e => handleSubmit(e, openModal)}>
                 <TextFieldComponent
