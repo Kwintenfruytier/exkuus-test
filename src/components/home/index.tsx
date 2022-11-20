@@ -112,9 +112,10 @@ const HomePage = () => {
                     <Image
                         filename="testimonial_hero.jpg"
                         alt="groepsfoto Exkuus community"
-                        width="100%"
-                        height="100%"
+                        width="80%"
+                        height="60%"
                         loading="eager"
+                        placeholder="blurred"
                     />
                 </Home_Image>
             </Home>
