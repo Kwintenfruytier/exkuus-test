@@ -19,7 +19,7 @@
             ]
         },
         {
-            "source": "/static/*",
+            "source": "/static/(*)",
             "headers": [
                 {
                     "key": "Cache-Control",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "source": "src/Images/*",
+            "source": "src/Images/(*)",
             "headers": [
                 {
                     "key": "Cache-Control",
