@@ -4,8 +4,6 @@ import { LayoutProvider } from 'layouts/LayoutProvider';
 import { DefaultLayout } from 'layouts/DefaultLayout';
 import type { GatsbySSR } from 'gatsby';
 import { Script, ScriptStrategy } from 'gatsby';
-import '@fontsource/cairo';
-import '@fontsource/text-me-one';
 import './src/styles/typography';
 
 export const wrapRootElement: GatsbySSR['wrapRootElement'] = ({ element }) => {
@@ -22,15 +20,15 @@ export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element, props }
             {element}
             <Script
                 src="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap"
-                strategy={ScriptStrategy.postHydrate}
+                strategy={ScriptStrategy.offMainThread}
             />
             <Script
                 src="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&display=swap"
-                strategy={ScriptStrategy.postHydrate}
+                strategy={ScriptStrategy.offMainThread}
             />
             <Script
                 src="https://fonts.googleapis.com/icon?family=Material+Icons"
-                strategy={ScriptStrategy.postHydrate}
+                strategy={ScriptStrategy.offMainThread}
             />
         </Layout>
     );
