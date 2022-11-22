@@ -28,7 +28,7 @@ import React, { useState } from 'react';
 import heroMP4 from '../../Images/homeHeroImage.mp4';
 import heroWebm from '../../Images/home_hero.webm';
 import heroGif from '../../Images/vault.gif';
-import heroPlaceholder from '../../Images/homeHeroPlaceholder.png';
+import heroPlaceholder from '../../Images/homeHeroPlaceholder.jpg';
 import IconField from '@/diensten/common/Iconfield';
 import Dialog from '@/common/modal';
 import { quotes } from 'constant/home';
@@ -112,8 +112,8 @@ const HomePage = () => {
                     <Image
                         filename="testimonial_hero.jpg"
                         alt="groepsfoto Exkuus community"
-                        width="80%"
-                        height="60%"
+                        width=""
+                        height=""
                         loading="eager"
                         placeholder="blurred"
                     />
