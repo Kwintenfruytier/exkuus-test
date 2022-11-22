@@ -75,8 +75,8 @@ const config: GatsbyConfig = {
                 domains: [
                     'https://fonts.googleapis.com',
                     'https://fonts.gstatic.com',
-                    'fast.wistia.net',
-                    '(connect.facebook.net',
+                    'https://fast.wistia.net',
+                    'https://connect.facebook.net',
                 ],
             },
         },
@@ -172,12 +172,12 @@ const config: GatsbyConfig = {
             },
         },
 
-        {
+        /* {
             resolve: `gatsby-plugin-facebook-pixel`,
             options: {
                 pixelId: '372314410424595',
             },
-        },
+        },*/
         {
             resolve: `gatsby-source-filesystem`,
             options: {
