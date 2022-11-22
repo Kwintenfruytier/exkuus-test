@@ -50,6 +50,9 @@ const config: GatsbyConfig = {
                     'src/Images/*': [
                         'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
                     ],
+                    'src/Images/svg/*': [
+                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
+                    ],
                     'src/styles/typography.tsx/*': [
                         'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
                     ],
