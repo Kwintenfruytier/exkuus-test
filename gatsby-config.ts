@@ -110,13 +110,7 @@ const config: GatsbyConfig = {
                 },
             },
         },
-        {
-            resolve: `gatsby-transformer-sharp`,
-            options: {
-                // The option defaults to true
-                checkSupportedExtensions: false,
-            },
-        },
+        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -169,7 +163,7 @@ const config: GatsbyConfig = {
             },
         },
 
-        /* {
+        {
             resolve: 'gatsby-plugin-google-tagmanager',
             options: {
                 id: 'GTM-T23N24V',
@@ -177,18 +171,11 @@ const config: GatsbyConfig = {
                 includeInDevelopment: false,
             },
         },
-        */
+
         {
             resolve: `gatsby-plugin-facebook-pixel`,
             options: {
                 pixelId: '372314410424595',
-            },
-        },
-        {
-            resolve: `gatsby-plugin-mdx`,
-            options: {
-                extensions: [`.mdx`],
-                gatsbyRemarkPlugins: [`gatsby-remark-copy-linked-files`],
             },
         },
         {
