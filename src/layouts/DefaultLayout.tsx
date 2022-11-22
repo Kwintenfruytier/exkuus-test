@@ -13,7 +13,9 @@ export const DefaultLayout: React.FC<{ children: React.ReactNode }> = ({ childre
                 }}
                 message="Onze site maakt gebruik van koekjes! Lekker toch? Wil je meer weten over wat jouw rechten zijn en hoe wij met die koekjes omgaan? Lees dat hier in ons"
                 link={<a href="/gdpr">gdpr-beleid</a>}
-                onAccept={() => {}}
+                onAccept={() => {
+                    alert('de koekjes zijn geaccepteerd :)');
+                }}
                 cookie="user-has-accepted-cookies"
                 buttonMessage="Ik snap het."
                 dismissOnScrollThreshold={100}

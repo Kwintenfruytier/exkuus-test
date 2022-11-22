@@ -37,6 +37,9 @@ const config: GatsbyConfig = {
                     '/static/*': [
                         'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
                     ],
+                    '/static': [
+                        'Cache-Control: public, max-age=31536000, s-maxage=31536000, immutable',
+                    ],
                     '/public/page-data/': ['Cache-Control: public, max-age=0, must-revalidate'],
                     '/public/page-data/app-data.json': [
                         'Cache-Control: public, max-age=0, must-revalidate',
@@ -64,6 +67,17 @@ const config: GatsbyConfig = {
                 mergeLinkHeaders: true, // boolean to turn off the default gatsby js headers
                 mergeCachingHeaders: true, // boolean to turn off the default caching headers
                 generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-preconnect',
+            options: {
+                domains: [
+                    'https://fonts.googleapis.com',
+                    'https://fonts.gstatic.com',
+                    'fast.wistia.net',
+                    '(connect.facebook.net',
+                ],
             },
         },
         `gatsby-plugin-sitemap`,
